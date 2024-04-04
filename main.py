@@ -32,7 +32,7 @@ def get_medicals(selected_providers, policy_type, age, sum_assured):
         # Anthropic API call with the policy data and user's input
         message = client.messages.create(
             model="claude-3-opus-20240229",
-            max_tokens=1000,
+            max_tokens=2000,
             temperature=0.5,
             system=f"Data contents:{policy_data}, You are to act as an intelligent filter for underwriting data. "
                    "Given a set of underwriting guidelines formatted as JSON data, your task is to return a list "
