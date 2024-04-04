@@ -22,7 +22,7 @@ def get_medicals(selected_providers, policy_type, age, sum_assured):
             model="claude-3-opus-20240229",
             max_tokens=1000,
             temperature=0.5,
-            system=f"Data contents:{policy_data}, You are now a highly accurate search engine. Query the data, and for the inputs provided by the user, respond with the corresponding results as they appear in the data in quotation marks.",
+            system=f"Data contents:{policy_data}, Given the following data representing different insurance policies and the corresponding medical requirements based on age and sum assured, and considering the user's input specifying their desired policy, age, and sum assured, identify and return the medical tests required for the user's insurance application. The data is organized as JSON entries, with each entry detailing the policy type, sum assured brackets, age brackets, and the required medical tests. Extract the relevant information from the data and provide a clear and concise list of medical tests that the user would need to complete for their application, according to the underwriting guidelines.",
             messages=[
                 {
                     "role": "user",
