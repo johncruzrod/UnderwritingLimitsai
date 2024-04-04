@@ -1,67 +1,59 @@
 import streamlit as st
 import anthropic
-import json
+import os
 
-# Use Streamlit's secret management to safely store and access your API key
-api_key = st.secrets["ANTHROPIC_API_KEY"]
-client = anthropic.Anthropic(api_key=api_key)
+client = anthropic.Anthropic(api_key="ANTHROPIC_API_KEY")
 
-# Load data from text files stored in GitHub repo
-@st.cache
-def load_data(provider):
-    # This assumes that the files are named as '{provider}.txt' and are placed in the 'data' directory
-    # The files need to be raw JSON data for this to work correctly
-    url = f"https://raw.githubusercontent.com/your_github_username/UnderwritingLimits/main/data/{provider}.txt"
-    return st.experimental_get_query_params(url).json()
+def get_medicals(selected_providers, policy_type, age, sum_assured):
+    results = []
 
-def get_medicals(provider, age, sum_assured, policy_type):
-    # Load data for the selected provider
-    policy_data = load_data(provider)
+    for provider in selected_providers:
+        file_path = f"data/{provider}.txt"
+        if not os.path.isfile(file_path):
+            results.append(f"File not found: {file_path}")
+            continue
 
-    # Here, you'd insert the logic to process the policy_data based on the inputs given
-    # ...
+        with open(file_path, "r") as file:
+            policy_data = file.read()
 
-    # For now, let's just pretend we're sending a request to the model
-    message = client.messages.create(
-        model="claude-3-opus-20240229",
-        max_tokens=1000,
-        temperature=0.5,
-        messages=[
-            {
-                "role": "user",
-                "content": f"Life Insurance, Age: {age}, Sum Assured: ${sum_assured}, Policy Type: {policy_type}"
-            }
-        ]
-    )
+        message = client.messages.create(
+            model="claude-3-opus-20240229",
+            max_tokens=1000,
+            temperature=0.5,
+            system=f"Data contents:{policy_data}, What are the required Medicals for the following? Please reply with a list of the required tests, as they appear in the data, and keep the answer short and to the point.",
+            messages=[
+                {
+                    "role": "user",
+                    "content": f"Life Insurance, Age: {age}, Sum Assured: ${sum_assured}, Policy Type: {policy_type}"
+                }
+            ]
+        )
 
-    # Assuming 'message' is the response object and it has a 'content' attribute
-    return message.content
+        if hasattr(message, 'content') and isinstance(message.content, list):
+            response_text = '\n'.join(block.text for block in message.content if block.type == 'text')
+        else:
+            response_text = "Unexpected response format or no match found."
 
-# Streamlit UI
-st.title("Insurance Medicals Lookup")
+        results.append(f"Provider: {provider}\n{response_text}")
 
-# Select Providers
-providers = ["AIG", "All Med Limits", "Atlas", "Aviva", "Guardian", "Legal and General", "Limits", "LV", "Royal London", "Scottish Widows", "Vitality"]
-selected_providers = st.multiselect("Select Providers", providers)
+    return results
 
-# Policy Type
-policy_type = st.selectbox("Policy Type", ["Life", "Critical Illness", "Income Protection"])
+def main():
+    st.title("Insurance Medicals Lookup")
 
-# Age
-age = st.number_input("Age", min_value=18, max_value=100)
+    providers = ["AIG", "All Med Limits", "Atlas", "Aviva", "Guardian", "Legal and General", "Limits", "LV", "Royal London", "Scottish Widows", "Vitality"]
+    selected_providers = st.multiselect("Select Providers:", providers)
 
-# Sum Assured
-sum_assured = st.number_input("Sum Assured ($)", min_value=50000, max_value=1000000)
+    policy_type = st.selectbox("Policy Type:", ["Life", "Critical Illness", "Income Protection"])
 
-if st.button("Get Medicals"):
-    if not selected_providers:
-        st.warning("Please select at least one provider.")
-    else:
-        results = []
-        for provider in selected_providers:
-            result = get_medicals(provider, age, sum_assured, policy_type)
-            results.append(result)
-        
-        # Display results
+    age = st.number_input("Age:", min_value=0, max_value=120, value=30, step=1)
+    sum_assured = st.number_input("Sum Assured ($):", min_value=0, value=100000, step=1000)
+
+    if st.button("Get Medicals"):
+        results = get_medicals(selected_providers, policy_type, age, sum_assured)
         for result in results:
             st.write(result)
+            st.write("---")
+
+if __name__ == "__main__":
+    main()
