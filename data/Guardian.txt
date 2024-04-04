@@ -1,0 +1,62 @@
+Life
+
+{
+  "Guardian LIFE PROTECTION": [
+    {
+      "Medicals Required": "Nil",
+      "Up to Age 30": "Up to £1,000,000",
+      "Age 31-40": "Up to £770,000",
+      "Age 41-50": "Up to £550,000",
+      "Age 51-60": "Up to £330,000",
+      "Age 61-64": "Up to £100,000"
+    },
+    {
+      "Medicals Required": "Level A: Nurse screening + finger prick blood test or traditional blood draw to include glucose and total cholesterol",
+      "Up to Age 30": "£1,000,001 - £1,500,000",
+      "Age 31-40": "£770,001 - £1,500,000",
+      "Age 41-50": "£550,001 - £1,000,000",
+      "Age 51-60": "£330,001 - £650,000",
+      "Age 61-64": "£100,001 - £400,000"
+    },
+    {
+      "Medicals Required": "Level B: Nurse screening + blood test 1",
+      "Up to Age 30": "£1,500,001 - £3,000,000",
+      "Age 31-40": "£1,500,001 - £3,000,000",
+      "Age 41-50": "£1,000,001 - £2,000,000",
+      "Age 51-60": "Not applicable",
+      "Age 61-64": "Not applicable"
+    },
+    {
+      "Medicals Required: "Level C: Nurse screening + blood test 2",
+      "Up to Age 30": "Not applicable",
+      "Age 31-40": "Not applicable",
+      "Age 41-50": "Not applicable",
+      "Age 51-60": "Not applicable",
+      "Age 61-64": "£400,001 - £1,500,000"
+    },
+    {
+      "Medicals Required": "Level D: Nurse screening + blood test 1 + general practitioner's report",
+      "Up to Age 30": "£3,000,001 - £7,500,000",
+      "Age 31-40": "£3,000,001 - £7,500,000",
+      "Age 41-50": "£2,000,001 - £4,000,000",
+      "Age 51-60": "£650,001 - £2,500,000",
+      "Age 61-64": "Not applicable"
+    },
+    {
+      "Medicals Required": "Level E: Medical examination report + blood test 2 + general practitioner's report + exercising ECG (replace exercising ECG with NT-Pro BNP blood test up to age 40)",
+      "Up to Age 30": "£7,500,001 - £10,000,000",
+      "Age 31-40": "£7,500,001 - £10,000,000",
+      "Age 41-50": "£4,000,001 - £10,000,000",
+      "Age 51-60": "£2,500,001 - £10,000,000",
+      "Age 61-64": "£1,500,001 - £10,000,000"
+    },
+    {
+      "Medicals Required": "Level F: Medical examination report + blood test 3 + HIV + PSA (for males) + general practitioner's report + exercising ECG (replace exercising ECG with NT-Pro BNP blood test up to age 30)",
+      "Up to Age 30": "£10,000,001 or more",
+      "Age 31-40": "£10,000,001 or more",
+      "Age 41-50": "£10,000,001 or more",
+      "Age 51-60": "£10,000,001 or more",
+      "Age 61-64": "£10,000,001 or more"
+    }
+  ]
+}
