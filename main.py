@@ -34,16 +34,7 @@ def get_medicals(selected_providers, policy_type, age, sum_assured):
             model="claude-3-opus-20240229",
             max_tokens=2000,
             temperature=0.5,
-            system=f"Data contents:{policy_data}, You are to act as an intelligent filter for underwriting data. "
-                   "Given a set of underwriting guidelines formatted as JSON data, your task is to return a list "
-                   "of required medical tests for an insurance applicant. You must extract this information based on "
-                   "the applicant's age and the sum assured they are applying for, as specified by the user's input.\n\n"
-                   "Please adhere strictly to the following instructions:\n\n"
-                   "1. Do not infer or add any tests that are not explicitly listed for the relevant age and sum assured bracket.\n"
-                   "2. Do not omit any tests; return all and only those listed for the relevant age and sum assured bracket.\n"
-                   "3. Ignore any data that does not match the user's specified age and sum assured bracket.\n"
-                   "4. Your response should be a bullet-point list of tests, exactly as they appear in the dataset.\n\n"
-                   "Please begin your task by analyzing the data provided for the matching sum assured and age bracket, and list the medical tests accordingly.",
+            system=f"Data contents:{policy_data}, Provide all the medical tests required for:",
             messages=[
                 {
                     "role": "user",
