@@ -22,7 +22,7 @@ def get_medicals(selected_providers, policy_type, age, sum_assured):
             model="claude-3-opus-20240229",
             max_tokens=1000,
             temperature=0.5,
-            system=f"Data contents:{policy_data}, What are the required Medicals for the following? Please reply with a list of the required tests, as they appear in the data, and keep the answer short and to the point.",
+            system=f"Data contents:{policy_data}, What are the required Medicals for the following? You must reply with the required tests exactly as they appear in the data in quotation marks. Keep the answer short and to the point.",
             messages=[
                 {
                     "role": "user",
