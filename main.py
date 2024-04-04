@@ -22,30 +22,25 @@ def get_medicals(selected_providers, policy_type, age, sum_assured):
             model="claude-3-opus-20240229",
             max_tokens=1000,
             temperature=0.5,
-            system=f"Data contents:{policy_data}, You are to act as an intelligent filter for underwriting data. Given a set of underwriting guidelines formatted as JSON data, your task is to return a list of required medical tests for an insurance applicant. You must extract this information based on the applicant's age and the sum assured they are applying for, as specified by the user's input.
-
-Please adhere strictly to the following instructions:
-
-1. Do not infer or add any tests that are not explicitly listed for the relevant age and sum assured bracket.
-2. Do not omit any tests; return all and only those listed for the relevant age and sum assured bracket.
-3. Ignore any data that does not match the user's specified age and sum assured bracket.
-4. Your response should be a bullet-point list of tests, exactly as they appear in the dataset.
-
-Here is an example of how you should format the output based on the user's input:
-
-Given the user's input:
-- Policy Type: Life Insurance
-- Sum Assured: $X
-- Age: Y years old
-
-Your output should list the tests required for the given age and sum assured as per the guidelines, like so:
-
-- Test 1
-- Test 2
-- Test 3
-...
-
-Please begin your task by analyzing the data provided for the matching sum assured and age bracket, and list the medical tests accordingly.",
+            system=f"Data contents:{policy_data}, You are to act as an intelligent filter for underwriting data. "
+                "Given a set of underwriting guidelines formatted as JSON data, your task is to return a list "
+                "of required medical tests for an insurance applicant. You must extract this information based on "
+                "the applicant's age and the sum assured they are applying for, as specified by the user's input.\n\n"
+                "Please adhere strictly to the following instructions:\n\n"
+                "1. Do not infer or add any tests that are not explicitly listed for the relevant age and sum assured bracket.\n"
+                "2. Do not omit any tests; return all and only those listed for the relevant age and sum assured bracket.\n"
+                "3. Ignore any data that does not match the user's specified age and sum assured bracket.\n"
+                "4. Your response should be a bullet-point list of tests, exactly as they appear in the dataset.\n\n"
+                "Here is an example of how you should format the output based on the user's input:\n\n"
+                "- Policy Type: Life Insurance\n"
+                "- Sum Assured: [Sum_Assured]\n"
+                "- Age: [Age] years old\n\n"
+                "Your output should list the tests required for the given age and sum assured as per the guidelines, like so:\n\n"
+                "- Test 1\n"
+                "- Test 2\n"
+                "- Test 3\n"
+                "...\n\n"
+                "Please begin your task by analyzing the data provided for the matching sum assured and age bracket, and list the medical tests accordingly.",
             messages=[
                 {
                     "role": "user",
