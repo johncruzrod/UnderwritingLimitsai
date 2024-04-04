@@ -34,7 +34,7 @@ def get_medicals(selected_providers, policy_type, age, sum_assured):
             model="claude-3-opus-20240229",
             max_tokens=2000,
             temperature=0.5,
-            system=f"Data contents:{policy_data}, Provide all the medical tests required for:",
+            system=f"Data contents:{policy_data}, Provide all the medical tests required for the following criteria, making sure to distinguish between Life, Critical Illness, and other types of cover as specified:",
             messages=[
                 {
                     "role": "user",
