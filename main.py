@@ -2,7 +2,9 @@ import streamlit as st
 import anthropic
 import os
 
-client = anthropic.Anthropic(api_key="ANTHROPIC_API_KEY")
+# Use Streamlit's secret management to safely store and access your API key
+api_key = st.secrets["ANTHROPIC_API_KEY"]
+client = anthropic.Anthropic(api_key=api_key)
 
 def get_medicals(selected_providers, policy_type, age, sum_assured):
     results = []
