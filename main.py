@@ -2,7 +2,11 @@ import streamlit as st
 import anthropic
 import os
 
-# Use Streamlit's secret management to safely store and access your API key
+# Initialize session state for 'logged_in' flag if it doesn't exist
+if 'logged_in' not in st.session_state:
+    st.session_state.logged_in = False
+
+# Use Streamlit's secret management to safely store and access your API key and the correct password
 api_key = st.secrets["ANTHROPIC_API_KEY"]
 client = anthropic.Anthropic(api_key=api_key)
 correct_password = st.secrets["PASSWORD"]
@@ -15,6 +19,8 @@ def get_medicals(selected_providers, policy_type, age, sum_assured):
     results = []
 
     for provider in selected_providers:
+        # Adjust the method to fetch the data based on your actual data storage (e.g., local file, GitHub, etc.)
+        # Assuming the data is stored locally for this example
         file_path = f"data/{provider}.txt"
         if not os.path.isfile(file_path):
             results.append(f"File not found: {file_path}")
@@ -23,29 +29,21 @@ def get_medicals(selected_providers, policy_type, age, sum_assured):
         with open(file_path, "r") as file:
             policy_data = file.read()
 
+        # Anthropic API call with the policy data and user's input
         message = client.messages.create(
             model="claude-3-opus-20240229",
             max_tokens=1000,
             temperature=0.5,
             system=f"Data contents:{policy_data}, You are to act as an intelligent filter for underwriting data. "
-                "Given a set of underwriting guidelines formatted as JSON data, your task is to return a list "
-                "of required medical tests for an insurance applicant. You must extract this information based on "
-                "the applicant's age and the sum assured they are applying for, as specified by the user's input.\n\n"
-                "Please adhere strictly to the following instructions:\n\n"
-                "1. Do not infer or add any tests that are not explicitly listed for the relevant age and sum assured bracket.\n"
-                "2. Do not omit any tests; return all and only those listed for the relevant age and sum assured bracket.\n"
-                "3. Ignore any data that does not match the user's specified age and sum assured bracket.\n"
-                "4. Your response should be a bullet-point list of tests, exactly as they appear in the dataset.\n\n"
-                "Here is an example of how you should format the output based on the user's input:\n\n"
-                "- Policy Type: Life Insurance\n"
-                "- Sum Assured: [Sum_Assured]\n"
-                "- Age: [Age] years old\n\n"
-                "Your output should list the tests required for the given age and sum assured as per the guidelines, like so:\n\n"
-                "- Test 1\n"
-                "- Test 2\n"
-                "- Test 3\n"
-                "...\n\n"
-                "Please begin your task by analyzing the data provided for the matching sum assured and age bracket, and list the medical tests accordingly.",
+                   "Given a set of underwriting guidelines formatted as JSON data, your task is to return a list "
+                   "of required medical tests for an insurance applicant. You must extract this information based on "
+                   "the applicant's age and the sum assured they are applying for, as specified by the user's input.\n\n"
+                   "Please adhere strictly to the following instructions:\n\n"
+                   "1. Do not infer or add any tests that are not explicitly listed for the relevant age and sum assured bracket.\n"
+                   "2. Do not omit any tests; return all and only those listed for the relevant age and sum assured bracket.\n"
+                   "3. Ignore any data that does not match the user's specified age and sum assured bracket.\n"
+                   "4. Your response should be a bullet-point list of tests, exactly as they appear in the dataset.\n\n"
+                   "Please begin your task by analyzing the data provided for the matching sum assured and age bracket, and list the medical tests accordingly.",
             messages=[
                 {
                     "role": "user",
@@ -80,7 +78,7 @@ def main():
             st.write(result)
             st.write("---")
 
-# Login form
+# Password form
 def password_form():
     st.sidebar.title("Access")
     password = st.sidebar.text_input("Enter the password", type="password")
@@ -90,11 +88,7 @@ def password_form():
         else:
             st.sidebar.error("Incorrect password, please try again.")
 
-# Initialise session state
-if 'logged_in' not in st.session_state:
-    st.session_state.logged_in = False
-
-# If not logged in, show password form, else show main app
+# Check if logged in, if not show password form, else show the main app
 if not st.session_state.logged_in:
     password_form()
 else:
