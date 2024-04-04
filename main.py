@@ -55,7 +55,7 @@ def get_medicals(selected_providers, policy_type, age, sum_assured):
 def main():
     st.title("Insurance Medicals Lookup")
 
-    providers = ["AIG", "Atlas", "Aviva", "Guardian", "Legal and General", "Limits", "LV", "Royal London", "Scottish Widows", "Vitality"]
+    providers = ["AIG", "Atlas", "Aviva", "Guardian", "Legal and General", "LV", "Royal London", "Scottish Widows", "Vitality"]
     selected_providers = st.multiselect("Select Providers:", providers)
 
     policy_type = st.selectbox("Policy Type:", ["Life", "Critical Illness", "Income Protection"])
