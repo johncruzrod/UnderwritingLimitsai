@@ -5,6 +5,11 @@ import os
 # Use Streamlit's secret management to safely store and access your API key
 api_key = st.secrets["ANTHROPIC_API_KEY"]
 client = anthropic.Anthropic(api_key=api_key)
+correct_password = st.secrets["PASSWORD"]
+
+# Function to check if the entered password is correct
+def check_password(password):
+    return password == correct_password
 
 def get_medicals(selected_providers, policy_type, age, sum_assured):
     results = []
@@ -75,5 +80,22 @@ def main():
             st.write(result)
             st.write("---")
 
-if __name__ == "__main__":
+# Login form
+def password_form():
+    st.sidebar.title("Access")
+    password = st.sidebar.text_input("Enter the password", type="password")
+    if st.sidebar.button("Enter"):
+        if check_password(password):
+            st.session_state.logged_in = True
+        else:
+            st.sidebar.error("Incorrect password, please try again.")
+
+# Initialise session state
+if 'logged_in' not in st.session_state:
+    st.session_state.logged_in = False
+
+# If not logged in, show password form, else show main app
+if not st.session_state.logged_in:
+    password_form()
+else:
     main()
