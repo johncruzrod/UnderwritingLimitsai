@@ -1,0 +1,93 @@
+{
+  "Up to and including 39 years": {
+    "Up to £75,000 pa": {},
+    "£75,001 - £100,000 pa": {
+      "General Practitioner's Report": true,
+      "Paramed (nurse examination)": true,
+      "Full Blood Profile (including biochemistry + haematology)": true
+    },
+    "£100,001 - £250,000 pa": {
+      "General Practitioner's Report": true,
+      "Medical Examiner's Report (doctor examination)": true,
+      "Full Blood Profile (including biochemistry + haematology)": true
+    }
+  },
+  "40 to 44 years": {
+    "Up to £40,000 pa": {},
+    "£40,001 - £50,000 pa": {
+      "Paramed (nurse examination)": true
+    },
+    "£50,001 - £75,000 pa": {
+      "General Practitioner's Report": true,
+      "Paramed (nurse examination)": true,
+      "Full Blood Profile (including biochemistry + haematology)": true
+    },
+    "£75,001 - £250,000 pa": {
+      "General Practitioner's Report": true,
+      "Medical Examiner's Report (doctor examination)": true,
+      "Full Blood Profile (including biochemistry + haematology)": true
+    }
+  },
+  "45 to 49 years": {
+    "Up to £30,000 pa": {},
+    "£30,001 - £40,000 pa": {
+      "Paramed (nurse examination)": true
+    },
+    "£40,001 - £50,000 pa": {
+      "Paramed (nurse examination)": true,
+      "Full Blood Profile (including biochemistry + haematology)": true
+    },
+    "£50,001 - £75,000 pa": {
+      "General Practitioner's Report": true,
+      "Paramed (nurse examination)": true,
+      "Full Blood Profile (including biochemistry + haematology)": true
+    },
+    "£75,001 - £250,000 pa": {
+      "General Practitioner's Report": true,
+      "Medical Examiner's Report (doctor examination)": true,
+      "Full Blood Profile (including biochemistry + haematology)": true
+    }
+  },
+  "50 to 54 years": {
+    "Up to £18,500 pa": {},
+    "£18,501 - £35,000 pa": {
+      "Paramed (nurse examination)": true
+    },
+    "£35,001 - £50,000 pa": {
+      "General Practitioner's Report": true,
+      "Paramed (nurse examination)": true
+    },
+    "£50,001 - £75,000 pa": {
+      "General Practitioner's Report": true,
+      "Medical Examiner's Report (doctor examination)": true,
+      "Full Blood Profile (including biochemistry + haematology)": true
+    },
+    "£75,001 - £250,000 pa": {
+      "General Practitioner's Report": true,
+      "Medical Examiner's Report (doctor examination)": true,
+      "Full Blood Profile (including biochemistry + haematology)": true,
+      "Stress Electrocardiogram (resting and exercise)": true
+    }
+  },
+  "55 and over": {
+    "Up to £15,500 pa": {},
+    "£15,501 - £25,000 pa": {
+      "Paramed (nurse examination)": true
+    },
+    "£25,001 - £50,000 pa": {
+      "General Practitioner's Report": true,
+      "Paramed (nurse examination)": true
+    },
+    "£50,001 - £75,000 pa": {
+      "General Practitioner's Report": true,
+      "Medical Examiner's Report (doctor examination)": true,
+      "Full Blood Profile (including biochemistry + haematology)": true
+    },
+    "£75,001 - £250,000 pa": {
+      "General Practitioner's Report": true,
+      "Medical Examiner's Report (doctor examination)": true,
+      "Full Blood Profile (including biochemistry + haematology)": true,
+      "Stress Electrocardiogram (resting and exercise)": true
+    }
+  }
+}

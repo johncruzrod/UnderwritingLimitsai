@@ -1,0 +1,347 @@
+* PSR not required if ME required. ** Cotinine required on non smokers only. *** PSA included. **** NT-proBNP not required if EXECG required.
+
+{
+  "LV Flexible Protection Plan (FPP), Relevant Life Cover (RLC), Gift Inter Vivos (GIV), Family Income Benefit (FIB) – Life Insurance underwriting limits": [
+    {
+      "Age next birthday": "To age 30",
+      "Sum Assured": [
+        {
+          "Amount": "Up to £1m",
+          "Tests": []
+        },
+        {
+          "Amount": "£1,000,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine, General practitioner's report"]
+        },
+        {
+          "Amount": "£1,500,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine, General practitioner's report, HIV test"]
+        },
+        {
+          "Amount": "£2,000,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine, General practitioner's report, HIV test, Biochemistry blood test"]
+        },
+        {
+          "Amount": "£4,000,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine, General practitioner's report, HIV test, Biochemistry blood test, Medical Examination Report"]
+        },
+        {
+          "Amount": "£7,500,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine, General practitioner's report, HIV test, Biochemistry blood test, Medical Examination Report, NT-proBNP blood test"]
+        }
+      ]
+    },
+    {
+      "Age next birthday": "31-35",
+      "Sum Assured": [
+        {
+          "Amount": "Up to £900,000",
+          "Tests": []
+        },
+        {
+          "Amount": "£900,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine"]
+        },
+        {
+          "Amount": "£1,000,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine, General practitioner's report"]
+        },
+        {
+          "Amount": "£1,500,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine, General practitioner's report, HIV test"]
+        },
+        {
+          "Amount": "£2,000,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine, General practitioner's report, HIV test, Biochemistry blood test"]
+        },
+        {
+          "Amount": "£4,000,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine, General practitioner's report, HIV test, Biochemistry blood test, Medical Examination Report"]
+        },
+        {
+          "Amount": "£7,500,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine, General practitioner's report, HIV test, Biochemistry blood test, Medical Examination Report, NT-proBNP blood test"]
+        }
+      ]
+    },
+    {
+      "Age next birthday": "36-40",
+      "Sum Assured": [
+        {
+          "Amount": "Up to £800,000",
+          "Tests": []
+        },
+        {
+          "Amount": "£800,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine"]
+        },
+        {
+          "Amount": "£1,000,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine, General practitioner's report"]
+        },
+        {
+          "Amount": "£1,500,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine, General practitioner's report, HIV test"]
+        },
+        {
+          "Amount": "£2,000,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine, General practitioner's report, HIV test, Biochemistry blood test"]
+        },
+        {
+          "Amount": "£4,000,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine, General practitioner's report, HIV test, Biochemistry blood test, Medical Examination Report"]
+        },
+        {
+          "Amount": "£7,500,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine, General practitioner's report, HIV test, Biochemistry blood test, Medical Examination Report, NT-proBNP blood test"]
+        }
+      ]
+    },
+    {
+      "Age next birthday": "41-45",
+      "Sum Assured": [
+        {
+          "Amount": "Up to £600,000",
+          "Tests": []
+        },
+        {
+          "Amount": "£600,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine"]
+        },
+        {
+          "Amount": "£1,000,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine, General practitioner's report"]
+        },
+        {
+          "Amount": "£1,500,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine, General practitioner's report, HIV test"]
+        },
+        {
+          "Amount": "£2,000,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine, General practitioner's report, HIV test, Biochemistry blood test"]
+        },
+        {
+          "Amount": "£3,000,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine, General practitioner's report, HIV test, Biochemistry blood test, Medical Examination Report"]
+        },
+        {
+          "Amount": "£5,000,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine, General practitioner's report, HIV test, Biochemistry blood test, Medical Examination Report, NT-proBNP blood test"]
+        }
+      ]
+    },
+    {
+      "Age next birthday": "46-50",
+      "Sum Assured": [
+        {
+          "Amount": "Up to £500,000",
+          "Tests": []
+        },
+        {
+          "Amount": "£500,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine"]
+        },
+        {
+          "Amount": "£1,000,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine, General practitioner's report, Biochemistry blood test"]
+        },
+        {
+          "Amount": "£1,500,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine, General practitioner's report, HIV test, Biochemistry blood test"]
+        },
+        {
+          "Amount": "£3,000,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine, General practitioner's report, HIV test, Biochemistry blood test, Medical Examination Report"]
+        },
+        {
+          "Amount": "£4,000,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine, General practitioner's report, HIV test, Biochemistry blood test, Medical Examination Report, NT-proBNP blood test"]
+        }
+      ]
+    },
+    {
+      "Age next birthday": "51-55",
+      "Sum Assured": [
+        {
+          "Amount": "Up to £400,000",
+          "Tests": []
+        },
+        {
+          "Amount": "£400,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine"]
+        },
+        {
+          "Amount": "£750,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine, Full blood profile, Glycated haemoglobin blood test"]
+        },
+        {
+          "Amount": "£1,000,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine, Full blood profile, Glycated haemoglobin blood test, General practitioner's report"]
+        },
+        {
+          "Amount": "£1,500,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine, Full blood profile, Glycated haemoglobin blood test, General practitioner's report, HIV test"]
+        },
+        {
+          "Amount": "£2,000,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine, Full blood profile, Glycated haemoglobin blood test, General practitioner's report, HIV test, Medical Examination Report"]
+        },
+        {
+          "Amount": "£3,000,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine, Full blood profile, Glycated haemoglobin blood test, General practitioner's report, HIV test, Medical Examination Report, NT-proBNP blood test"]
+        },
+        {
+          "Amount": "£7,500,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine, Full blood profile, Glycated haemoglobin blood test, General practitioner's report, HIV test, Medical Examination Report, Exercise Electrocardiogram"]
+        }
+      ]
+    },
+    {
+      "Age next birthday": "56-60",
+      "Sum Assured": [
+        {
+          "Amount": "Up to £300,000",
+          "Tests": []
+        },
+        {
+          "Amount": "£300,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine"]
+        },
+        {
+          "Amount": "£750,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine, Full blood profile, Glycated haemoglobin blood test"]
+        },
+        {
+          "Amount": "£1,000,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine, Full blood profile, Glycated haemoglobin blood test, General practitioner's report"]
+        },
+        {
+          "Amount": "£1,500,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine, Full blood profile, Glycated haemoglobin blood test, General practitioner's report, HIV test"]
+        },
+        {
+          "Amount": "£2,000,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine, Full blood profile, Glycated haemoglobin blood test, General practitioner's report, HIV test, Medical Examination Report, NT-proBNP blood test"]
+        },
+        {
+          "Amount": "£5,000,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine, Full blood profile, Glycated haemoglobin blood test, General practitioner's report, HIV test, Medical Examination Report, Exercise Electrocardiogram"]
+        }
+      ]
+    },
+    {
+      "Age next birthday": "61-65",
+      "Sum Assured": [
+        {
+          "Amount": "Up to £200,000",
+          "Tests": []
+        },
+        {
+          "Amount": "£200,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine"]
+        },
+        {
+          "Amount": "£500,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine, Full blood profile, Glycated haemoglobin blood test"]
+        },
+        {
+          "Amount": "£1,000,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine, Full blood profile, Glycated haemoglobin blood test, General practitioner's report, Medical Examination Report"]
+        },
+        {
+          "Amount": "£1,500,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine, Full blood profile, Glycated haemoglobin blood test, General practitioner's report, Medical Examination Report, NT-proBNP blood test"]
+        },
+        {
+          "Amount": "£3,000,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine, Full blood profile, Glycated haemoglobin blood test, General practitioner's report, Medical Examination Report, Exercise Electrocardiogram"]
+        }
+      ]
+    },
+    {
+      "Age next birthday": "66-70",
+      "Sum Assured": [
+        {
+          "Amount": "Up to £100,000",
+          "Tests": []
+        },
+        {
+          "Amount": "£100,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine"]
+        },
+        {
+          "Amount": "£250,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine, Full blood profile, Glycated haemoglobin blood test"]
+        },
+        {
+          "Amount": "£1,000,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine, Full blood profile, Glycated haemoglobin blood test, General practitioner's report, Medical Examination Report, NT-proBNP blood test"]
+        },
+        {
+          "Amount": "£2,500,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine, Full blood profile, Glycated haemoglobin blood test, General practitioner's report, Medical Examination Report, Exercise Electrocardiogram"]
+        }
+      ]
+    },
+    {
+      "Age next birthday": "71-75",
+      "Sum Assured": [
+        {
+          "Amount": "Up to £75,000",
+          "Tests": []
+        },
+        {
+          "Amount": "£75,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine"]
+        },
+        {
+          "Amount": "£250,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine, Full blood profile, Glycated haemoglobin blood test"]
+        },
+        {
+          "Amount": "£500,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine, Full blood profile, Glycated haemoglobin blood test, General practitioner's report"]
+        },
+        {
+          "Amount": "£750,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine, Full blood profile, Glycated haemoglobin blood test, General practitioner's report, Medical Examination Report"]
+        },
+        {
+          "Amount": "£1,000,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine, Full blood profile, Glycated haemoglobin blood test, General practitioner's report, Medical Examination Report, NT-proBNP blood test"]
+        },
+        {
+          "Amount": "£2,500,001 and above",
+          "Tests": ["Paramedical Screening Report, Cotinine, Full blood profile, Glycated haemoglobin blood test, General practitioner's report, Medical Examination Report, Exercise Electrocardiogram"]
+        }
+      ]
+    },
+    {
+  "Age next birthday": "Over 75",
+  "Sum Assured": [
+    {
+      "Amount": "Up to £50,000",
+      "Tests": []
+    },
+    {
+      "Amount": "£50,001 and above",
+      "Tests": ["Paramedical Screening Report", "Cotinine"]
+    },
+    {
+      "Amount": "£250,001 and above",
+      "Tests": ["Paramedical Screening Report", "Cotinine", "Full blood profile", "Glycated haemoglobin blood test"]
+    },
+    {
+      "Amount": "£500,001 and above",
+      "Tests": ["Paramedical Screening Report", "Cotinine", "Full blood profile", "Glycated haemoglobin blood test", "General practitioner's report", "Medical Examination Report"]
+    },
+    {
+      "Amount": "£1,000,001 and above",
+      "Tests": ["Paramedical Screening Report", "Cotinine", "Full blood profile", "Glycated haemoglobin blood test", "General practitioner's report", "Medical Examination Report", "NT-proBNP blood test"]
+    },
+    {
+      "Amount": "£2,500,001 and above",
+      "Tests": ["Paramedical Screening Report", "Cotinine", "Full blood profile", "Glycated haemoglobin blood test", "General practitioner's report", "Medical Examination Report", "Exercise Electrocardiogram"]
+    }
+  ]
+}

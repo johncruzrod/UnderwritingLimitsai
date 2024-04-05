@@ -1,0 +1,190 @@
+{
+  "Up to and including 29 years": {
+    "Up to £1,000,000": {},
+    "£1,000,001 - £1,100,000": {
+      "Miniscreen": true
+    },
+    "£1,100,001 - £2,200,000": {
+      "General Practitioner's Report": true,
+      "Paramed (nurse examination)": true
+    },
+    "£2,200,001 - £3,000,000": {
+      "General Practitioner's Report": true,
+      "Paramed (nurse examination)": true,
+      "Full Blood Profile (including biochemistry + haematology)": true
+    },
+    "£3,000,001 - £10,000,000": {
+      "General Practitioner's Report": true,
+      "Medical Examiner's Report (doctor examination)": true,
+      "Full Blood Profile (including biochemistry + haematology)": true
+    }
+  },
+  "30 to 34 years": {
+    "Up to £450,000": {},
+    "£450,001 - £750,000": {
+      "Paramed (nurse examination)": true
+    },
+    "£750,001 - £1,000,000": {
+      "General Practitioner's Report": true,
+      "Paramed (nurse examination)": true,
+      "Full Blood Profile (including biochemistry + haematology)": true
+    },
+    "£1,000,001 - £3,000,000": {
+      "General Practitioner's Report": true,
+      "Medical Examiner's Report (doctor examination)": true,
+      "Full Blood Profile (including biochemistry + haematology)": true
+    }
+  },
+  "35 to 39 years": {
+    "Up to £425,000": {},
+    "£425,001 - £600,000": {
+      "Paramed (nurse examination)": true
+    },
+    "£600,001 - £750,000": {
+      "General Practitioner's Report": true,
+      "Paramed (nurse examination)": true
+    },
+    "£750,001 - £1,000,000": {
+      "General Practitioner's Report": true,
+      "Paramed (nurse examination)": true,
+      "Full Blood Profile (including biochemistry + haematology)": true
+    },
+    "£1,000,001 - £3,000,000": {
+      "General Practitioner's Report": true,
+      "Medical Examiner's Report (doctor examination)": true,
+      "Full Blood Profile (including biochemistry + haematology)": true
+    }
+  },
+  "40 to 44 years": {
+    "Up to £350,000": {},
+    "£350,001 - £450,000": {
+      "Paramed (nurse examination)": true
+    },
+    "£450,001 - £500,000": {
+      "General Practitioner's Report": true,
+      "Paramed (nurse examination)": true
+    },
+    "£500,001 - £750,000": {
+      "General Practitioner's Report": true,
+      "Paramed (nurse examination)": true,
+      "Full Blood Profile (including biochemistry + haematology)": true
+    },
+    "£750,001 - £3,000,000": {
+      "General Practitioner's Report": true,
+      "Medical Examiner's Report (doctor examination)": true,
+      "Full Blood Profile (including biochemistry + haematology)": true
+    }
+  },
+  "45 to 49 years": {
+    "Up to £275,000": {},
+    "£275,001 - £350,000": {
+      "Paramed (nurse examination)": true
+    },
+    "£350,001 - £500,000": {
+      "General Practitioner's Report": true,
+      "Paramed (nurse examination)": true
+    },
+    "£500,001 - £750,000": {
+      "General Practitioner's Report": true,
+      "Paramed (nurse examination)": true,
+      "Full Blood Profile (including biochemistry + haematology)": true
+    },
+    "£750,001 - £3,000,000": {
+      "General Practitioner's Report": true,
+      "Medical Examiner's Report (doctor examination)": true,
+      "Full Blood Profile (including biochemistry + haematology)": true
+    }
+  },
+  "50 to 54 years": {
+    "Up to £150,000": {},
+    "£150,001 - £200,000": {
+      "Paramed (nurse examination)": true
+    },
+    "£200,001 - £500,000": {
+      "General Practitioner's Report": true,
+      "Paramed (nurse examination)": true
+    },
+    "£500,001 - £750,000": {
+      "General Practitioner's Report": true,
+      "Medical Examiner's Report (doctor examination)": true,
+      "Full Blood Profile (including biochemistry + haematology)": true,
+      "Prostate Specific Antigen for men": true
+    },
+    "£750,001 - £3,000,000": {
+      "General Practitioner's Report": true,
+      "Medical Examiner's Report (doctor examination)": true,
+      "Full Blood Profile (including biochemistry + haematology)": true,
+      "Stress Electrocardiogram (resting and exercise)": true,
+      "Prostate Specific Antigen for men": true
+    }
+  },
+  "55 to 59 years": {
+    "Up to £100,000": {},
+    "£100,001 - £150,000": {
+      "Paramed (nurse examination)": true
+    },
+    "£150,001 - £400,000": {
+      "General Practitioner's Report": true,
+      "Paramed (nurse examination)": true
+    },
+    "£400,001 - £600,000": {
+      "General Practitioner's Report": true,
+      "Medical Examiner's Report (doctor examination)": true,
+      "Full Blood Profile (including biochemistry + haematology)": true,
+      "Prostate Specific Antigen for men": true
+    },
+    "£600,001 - £3,000,000": {
+      "General Practitioner's Report": true,
+      "Medical Examiner's Report (doctor examination)": true,
+      "Full Blood Profile (including biochemistry + haematology)": true,
+      "Stress Electrocardiogram (resting and exercise)": true,
+      "Prostate Specific Antigen for men": true
+    }
+  },
+  "60 to 64 years": {
+    "Up to £50,000": {},
+    "£50,001 - £100,000": {
+      "Paramed (nurse examination)": true
+    },
+    "£100,001 - £150,000": {
+      "General Practitioner's Report": true,
+      "Paramed (nurse examination)": true
+    },
+    "£150,001 - £500,000": {
+      "General Practitioner's Report": true,
+      "Medical Examiner's Report (doctor examination)": true,
+      "Full Blood Profile (including biochemistry + haematology)": true,
+      "Prostate Specific Antigen for men": true
+    },
+    "£500,001 - £3,000,000": {
+      "General Practitioner's Report": true,
+      "Medical Examiner's Report (doctor examination)": true,
+      "Full Blood Profile (including biochemistry + haematology)": true,
+      "Stress Electrocardiogram (resting and exercise)": true,
+      "Prostate Specific Antigen for men": true
+    }
+  },
+  "65 and over": {
+    "Up to £50,000": {},
+    "£50,001 - £100,000": {
+      "Paramed (nurse examination)": true
+    },
+    "£100,001 - £150,000": {
+      "General Practitioner's Report": true,
+      "Medical Examiner's Report (doctor examination)": true
+    },
+    "£150,001 - £500,000": {
+      "General Practitioner's Report": true,
+      "Medical Examiner's Report (doctor examination)": true,
+      "Full Blood Profile (including biochemistry + haematology)": true,
+      "Prostate Specific Antigen for men": true
+    },
+    "£500,001 - £3,000,000": {
+      "General Practitioner's Report": true,
+      "Medical Examiner's Report (doctor examination)": true,
+      "Full Blood Profile (including biochemistry + haematology)": true,
+      "Stress Electrocardiogram (resting and exercise)": true,
+      "Prostate Specific Antigen for men": true
+    }
+  }
+}

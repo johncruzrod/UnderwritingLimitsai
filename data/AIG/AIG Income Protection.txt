@@ -1,0 +1,221 @@
+[
+  {
+    "Sum Assured (per annum)": "To 15,000",
+    "Monthly Benefit (per annum)": "1,250",
+    "17-39": [],
+    "40-44": [],
+    "45-49": [],
+    "50-54": [],
+    "55-59": []
+  },
+  {
+    "Sum Assured (per annum)": "To 15,001-20,000",
+    "Monthly Benefit (per annum)": "1,251 1,666",
+    "17-39": [],
+    "40-44": [],
+    "45-49": [],
+    "50-54": [],
+    "55-59": [
+      "Nurse medical",
+      "Cotinine",
+      "Full Blood Profile"
+    ]
+  },
+  {
+    "Sum Assured (per annum)": "20,001 - 30,000",
+    "Monthly Benefit (per annum)": "1,667 2,500",
+    "17-39": [],
+    "40-44": [],
+    "45-49": [],
+    "50-54": [
+      "Nurse medical",
+      "Cotinine",
+      "Full Blood Profile"
+    ],
+    "55-59": [
+      "Nurse medical",
+      "Cotinine",
+      "Full Blood Profile"
+    ]
+  },
+  {
+    "Sum Assured (per annum)": "30,001 50,000",
+    "Monthly Benefit (per annum)": "2,501 4,166",
+    "17-39": [],
+    "40-44": [],
+    "45-49": [
+      "Nurse medical",
+      "Cotinine",
+      "Biochemistry (blood test)"
+    ],
+    "50-54": [
+      "Nurse medical",
+      "Cotinine",
+      "Full Blood Profile"
+    ],
+    "55-59": [
+      "Doctors medical",
+      "Cotinine",
+      "Full Blood Profile"
+    ]
+  },
+  {
+    "Sum Assured (per annum)": "50,001 75,000",
+    "Monthly Benefit (per annum)": "4,167 6,250",
+    "17-39": [],
+    "40-44": [
+      "Doctors medical",
+      "Cotinine",
+      "Biochemistry (blood test)"
+    ],
+    "45-49": [
+      "Doctors medical",
+      "Cotinine",
+      "Biochemistry (blood test)"
+    ],
+    "50-54": [
+      "Doctors medical",
+      "Cotinine",
+      "Full Blood Profile"
+    ],
+    "55-59": [
+      "Doctors medical",
+      "Cotinine",
+      "Full Blood Profile"
+    ]
+  },
+  {
+    "Sum Assured (per annum)": "75,001 100,000",
+    "Monthly Benefit (per annum)": "6,251 8,333",
+    "17-39": [
+      "Nurse medical",
+      "Cotinine",
+      "Biochemistry (blood test)"
+    ],
+    "40-44": [
+      "Doctors medical",
+      "Cotinine",
+      "Biochemistry (blood test)"
+    ],
+    "45-49": [
+      "Doctors medical",
+      "Cotinine",
+      "Biochemistry (blood test)"
+    ],
+    "50-54": [
+      "Doctors medical",
+      "Cotinine",
+      "Full Blood Profile"
+    ],
+    "55-59": [
+      "Doctors medical",
+      "Cotinine",
+      "Full Blood Profile",
+      "GPR*"
+    ]
+  },
+  {
+    "Sum Assured (per annum)": "100,001 120,000",
+    "Monthly Benefit (per annum)": "8,334 10,000",
+    "17-39": [
+      "Doctors medical",
+      "Cotinine",
+      "Biochemistry (blood test)"
+    ],
+    "40-44": [
+      "Doctors medical",
+      "Cotinine",
+      "Biochemistry (blood test)"
+    ],
+    "45-49": [
+      "Doctors medical",
+      "Cotinine",
+      "Biochemistry (blood test)"
+    ],
+    "50-54": [
+      "Doctors medical",
+      "Cotinine",
+      "Full Blood Profile"
+    ],
+    "55-59": [
+      "Doctors medical",
+      "Cotinine",
+      "Full Blood Profile",
+      "GPR*"
+    ]
+  },
+  {
+    "Sum Assured (per annum)": "120,001 -150,000",
+    "Monthly Benefit (per annum)": "10,001-12,500",
+    "17-39": [
+      "Doctors medical",
+      "Cotinine",
+      "Biochemistry (blood test)",
+      "HIV"
+    ],
+    "40-44": [
+      "Doctors medical",
+      "Cotinine",
+      "Biochemistry (blood test)",
+      "HIV"
+    ],
+    "45-49": [
+      "Doctors medical",
+      "Cotinine",
+      "Biochemistry (blood test)",
+      "HIV"
+    ],
+    "50-54": [
+      "Doctors medical",
+      "Cotinine",
+      "Full Blood Profile",
+      "HIV"
+    ],
+    "55-59": [
+      "Doctors medical",
+      "Cotinine",
+      "Full Blood Profile",
+      "HIV",
+      "GPR*"
+    ]
+  },
+  {
+    "Sum Assured (per annum)": "150,001",
+    "Monthly Benefit (per annum)": "12,501+",
+    "17-39": [
+      "Doctors medical",
+      "Cotinine",
+      "HIV",
+      "Biochemistry (blood test)",
+      "GPR*"
+    ],
+    "40-44": [
+      "Doctors medical",
+      "Cotinine",
+      "HIV",
+      "Biochemistry (blood test)",
+      "GPR*"
+    ],
+    "45-49": [
+      "Doctors medical",
+      "Cotinine",
+      "HIV",
+      "Biochemistry (blood test)",
+      "GPR*"
+    ],
+    "50-54": [
+      "Doctors medical",
+      "Cotinine",
+      "Full Blood Profile",
+      "HIV",
+      "GPR*"
+    ],
+    "55-59": [
+      "Doctors medical",
+      "Cotinine",
+      "Full Blood Profile",
+      "HIV",
+      "GPR*"
+    ]
+  }
+]

@@ -1,0 +1,150 @@
+[
+  {
+    "Age next birthday": "Up to 40",
+    "Monthly Benefit Level": [
+      {
+        "Amount": "Up to and including £2,000",
+        "Tests": [
+          "No automatic evidence"
+        ]
+      },
+      {
+        "Amount": "£2,001 - £2,500",
+        "Tests": [
+          "No automatic evidence"
+        ]
+      },
+      {
+        "Amount": "£2,501 - £3,000",
+        "Tests": [
+          "No automatic evidence"
+        ]
+      },
+      {
+        "Amount": "£3,001 - £4,000",
+        "Tests": [
+          "No automatic evidence"
+        ]
+      },
+      {
+        "Amount": "£4,001 - £6,250",
+        "Tests": [
+          "No automatic evidence"
+        ]
+      },
+      {
+        "Amount": "> £6,250",
+        "Tests": [
+          "Patient Health Report",
+          "Full Nurse Screening Examination",
+          "Non-fasting profile (including Lipids / LFT / RFT / FBC)",
+          "Cotinine test (If a non-smoker)",
+          "Human Immunodeficiency Virus Test"
+        ]
+      }
+    ]
+  },
+  {
+    "Age next birthday": "41 - 50",
+    "Monthly Benefit Level": [
+      {
+        "Amount": "Up to and including £2,000",
+        "Tests": [
+          "No automatic evidence"
+        ]
+      },
+      {
+        "Amount": "£2,001 - £2,500",
+        "Tests": [
+          "No automatic evidence"
+        ]
+      },
+      {
+        "Amount": "£2,501 - £3,000",
+        "Tests": [
+          "No automatic evidence"
+        ]
+      },
+      {
+        "Amount": "£3,001 - £4,000",
+        "Tests": [
+          "No automatic evidence"
+        ]
+      },
+      {
+        "Amount": "£4,001 - £6,250",
+        "Tests": [
+          "Full Nurse Screening Examination",
+          "Non-fasting profile (including Lipids / LFT / RFT / FBC)",
+          "Cotinine test (If a non-smoker)",
+          "Human Immunodeficiency Virus Test"
+        ]
+      },
+      {
+        "Amount": "> £6,250",
+        "Tests": [
+          "Patient Health Report",
+          "Full Nurse Screening Examination",
+          "Non-fasting profile (including Lipids / LFT / RFT / FBC)",
+          "Cotinine test (If a non-smoker)",
+          "Human Immunodeficiency Virus Test"
+        ]
+      }
+    ]
+  },
+  {
+    "Age next birthday": "Over 50",
+    "Monthly Benefit Level": [
+      {
+        "Amount": "Up to and including £2,000",
+        "Tests": [
+          "No automatic evidence"
+        ]
+      },
+      {
+        "Amount": "£2,001 - £2,500",
+        "Tests": [
+          "Full Nurse Screening Examination**",
+          "Non-fasting profile (including Lipids / LFT / RFT)",
+          "Cotinine test (If a non-smoker)"
+        ]
+      },
+      {
+        "Amount": "£2,501 - £3,000",
+        "Tests": [
+          "Full Nurse Screening Examination**",
+          "Non-fasting profile (including Lipids / LFT / RFT)",
+          "Cotinine test (If a non-smoker)"
+        ]
+      },
+      {
+        "Amount": "£3,001 - £4,000",
+        "Tests": [
+          "Full Nurse Screening Examination**",
+          "Non-fasting profile (including Lipids / LFT / RFT)",
+          "Cotinine test (If a non-smoker)"
+        ]
+      },
+      {
+        "Amount": "£4,001 - £6,250",
+        "Tests": [
+          "Full Nurse Screening Examination**",
+          "Non-fasting profile (including Lipids / LFT / RFT)",
+          "Cotinine test (If a non-smoker)",
+          "Human Immunodeficiency Virus Test"
+        ]
+      },
+      {
+        "Amount": "> £6,250",
+        "Tests": [
+          "Patient Health Report",
+          "Full Nurse Screening Examination**",
+          "Non-fasting profile (including Lipids / LFT / RFT)",
+          "Cotinine test (If a non-smoker)",
+          "Human Immunodeficiency Virus Test",
+          "NT pro BNP"
+        ]
+      }
+    ]
+  }
+]
