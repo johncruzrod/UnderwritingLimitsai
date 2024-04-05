@@ -52,7 +52,7 @@ def get_medicals(provider, policy_file, age, sum_assured):
 
     # Process and return the response
     if response.choices:
-        response_text = response.choices[0].message['content'].strip()
+        response_text = response.choices[0].message.content.strip()
         return f"Provider: {provider}\nPolicy: {policy_file}\n{response_text}"
     else:
         return "Error: No medical information returned from GPT-4."
