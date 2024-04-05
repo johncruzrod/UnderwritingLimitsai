@@ -58,18 +58,22 @@ def main():
     providers = ["AIG", "Atlas", "Aviva", "Guardian", "Legal and General", "LV", "Royal London", "Scottish Widows", "Vitality"]
 
     age = st.number_input("Age:", min_value=0, max_value=120, value=30, step=1)
-    sum_assured = st.number_input("Sum Assured (£):", min_value=0, value=100000, step=1000)
 
     selected_providers = st.multiselect("Select Providers:", providers)
 
     selected_policies = {}
+    sum_assured_values = {}
     for provider in selected_providers:
         policy_files = [f for f in os.listdir(f"data/{provider}") if f.endswith(".txt")]
         selected_policies[provider] = st.multiselect(f"Select Policies for {provider}:", policy_files)
+        
+        for policy in selected_policies[provider]:
+            sum_assured_values[(provider, policy)] = st.number_input(f"Sum Assured (£) for {provider} - {policy}:", min_value=0, value=100000, step=1000)
 
     if st.button("Get Medicals"):
         for provider, policies in selected_policies.items():
             for policy in policies:
+                sum_assured = sum_assured_values[(provider, policy)]
                 result = get_medicals(provider, policy, age, sum_assured)
                 st.write(result)
                 st.write("---")
