@@ -1,0 +1,169 @@
+AGE AT NEXT BIRTHDAY:
+
+[
+ {
+   "Sum Assured (nbd - age next birthday)": "£75,000 and under",
+   "30 nbd & under": "",
+   "31 35 nbd": "",
+   "36 40 nbd": "",
+   "41 45 nbd": "",
+   "46 50 nbd": "",
+   "51 55 nbd": "",
+   "56 60 nbd": "",
+   "61 65 nbd": ""
+ },
+ {
+   "Sum Assured (nbd - age next birthday)": "£75,001 - £100,000",
+   "30 nbd & under": "",
+   "31 35 nbd": "",
+   "36 40 nbd": "",
+   "41 45 nbd": "",
+   "46 50 nbd": "",
+   "51 55 nbd": "",
+   "56 60 nbd": "",
+   "61 65 nbd": "General Practitioner's Report"
+ },
+ {
+   "Sum Assured (nbd - age next birthday)": "£100,001 - £150,000",
+   "30 nbd & under": "",
+   "31 35 nbd": "",
+   "36 40 nbd": "",
+   "41 45 nbd": "",
+   "46 50 nbd": "",
+   "51 55 nbd": "",
+   "56 60 nbd": "General Practitioner's Report",
+   "61 65 nbd": "General Practitioner's Report, Nurse Screening Examination – Cotinine test for non smokers"
+ },
+ {
+   "Sum Assured (nbd - age next birthday)": "£150,001 - £200,000",
+   "30 nbd & under": "",
+   "31 35 nbd": "",
+   "36 40 nbd": "",
+   "41 45 nbd": "",
+   "46 50 nbd": "",
+   "51 55 nbd": "General Practitioner's Report",
+   "56 60 nbd": "General Practitioner's Report, Nurse Screening Examination – Cotinine test for non smokers",
+   "61 65 nbd": "General Practitioner's Report, Nurse Screening Examination – Cotinine test for non smokers"
+ },
+ {
+   "Sum Assured (nbd - age next birthday)": "£200,001 - £250,000",
+   "30 nbd & under": "",
+   "31 35 nbd": "",
+   "36 40 nbd": "",
+   "41 45 nbd": "",
+   "46 50 nbd": "",
+   "51 55 nbd": "General Practitioner's Report, Nurse Screening Examination – Cotinine test for non smokers",
+   "56 60 nbd": "General Practitioner's Report, Nurse Screening Examination – Cotinine test for non smokers",
+   "61 65 nbd": "General Practitioner's Report, Nurse Screening Examination – Cotinine test for non smokers"
+ },
+ {
+   "Sum Assured (nbd - age next birthday)": "£250,001 - £300,000",
+   "30 nbd & under": "",
+   "31 35 nbd": "",
+   "36 40 nbd": "",
+   "41 45 nbd": "",
+   "46 50 nbd": "",
+   "51 55 nbd": "General Practitioner's Report, Nurse Screening Examination – Cotinine test for non smokers",
+   "56 60 nbd": "General Practitioner's Report, Nurse Screening Examination – Cotinine test for non smokers",
+   "61 65 nbd": "General Practitioner's Report, Nurse Screening Examination – Cotinine test for non smokers"
+ },
+ {
+   "Sum Assured (nbd - age next birthday)": "£300,001 - £350,000",
+   "30 nbd & under": "",
+   "31 35 nbd": "",
+   "36 40 nbd": "",
+   "41 45 nbd": "",
+   "46 50 nbd": "Nurse Screening Examination – Cotinine test for non smokers, General Practitioner's Report",
+   "51 55 nbd": "General Practitioner's Report, Nurse Screening Examination – Cotinine test for non smokers",
+   "56 60 nbd": "General Practitioner's Report, Nurse Screening Examination – Cotinine test for non smokers",
+   "61 65 nbd": "General Practitioner's Report, Nurse Screening Examination – Cotinine test for non smokers, Biochemistry"
+ },
+ {
+   "Sum Assured (nbd - age next birthday)": "£350,001 - £400,000",
+   "30 nbd & under": "",
+   "31 35 nbd": "",
+   "36 40 nbd": "",
+   "41 45 nbd": "",
+   "46 50 nbd": "Nurse Screening Examination – Cotinine test for non smokers, General Practitioner's Report",
+   "51 55 nbd": "General Practitioner's Report, Nurse Screening Examination – Cotinine test for non smokers",
+   "56 60 nbd": "General Practitioner's Report, Nurse Screening Examination – Cotinine test for non smokers",
+   "61 65 nbd": "General Practitioner's Report, Nurse Screening Examination – Cotinine test for non smokers, Biochemistry"
+ },
+ {
+   "Sum Assured (nbd - age next birthday)": "£400,001 - £450,000",
+   "30 nbd & under": "",
+   "31 35 nbd": "",
+   "36 40 nbd": "",
+   "41 45 nbd": "Nurse Screening Examination – Cotinine test for non smokers, General Practitioner's Report",
+   "46 50 nbd": "Nurse Screening Examination – Cotinine test for non smokers, General Practitioner's Report",
+   "51 55 nbd": "General Practitioner's Report, Nurse Screening Examination – Cotinine test for non smokers",
+   "56 60 nbd": "General Practitioner's Report, Nurse Screening Examination – Cotinine test for non smokers, Biochemistry",
+   "61 65 nbd": "General Practitioner's Report, Nurse Screening Examination – Cotinine test for non smokers, Biochemistry"
+ },
+ {
+   "Sum Assured (nbd - age next birthday)": "£450,001 - £500,000",
+   "30 nbd & under": "",
+   "31 35 nbd": "",
+   "36 40 nbd": "Nurse Screening Examination – Cotinine test for non smokers",
+   "41 45 nbd": "Nurse Screening Examination – Cotinine test for non smokers, General Practitioner's Report",
+   "46 50 nbd": "Nurse Screening Examination – Cotinine test for non smokers, General Practitioner's Report",
+   "51 55 nbd": "General Practitioner's Report, Nurse Screening Examination – Cotinine test for non smokers",
+   "56 60 nbd": "General Practitioner's Report, Nurse Screening Examination – Cotinine test for non smokers, Biochemistry",
+   "61 65 nbd": "General Practitioner's Report, Nurse Screening Examination – Cotinine test for non smokers, Biochemistry"
+ },
+ {
+   "Sum Assured (nbd - age next birthday)": "£500,001 - £600,000",
+   "30 nbd & under": "Nurse Screening Examination – Cotinine test for non smokers",
+   "31 35 nbd": "Nurse Screening Examination – Cotinine test for non smokers",
+   "36 40 nbd": "Nurse Screening Examination – Cotinine test for non smokers",
+   "41 45 nbd": "Nurse Screening Examination – Cotinine test for non smokers, General Practitioner's Report",
+   "46 50 nbd": "Nurse Screening Examination – Cotinine test for non smokers, General Practitioner's Report",
+   "51 55 nbd": "General Practitioner's Report, Nurse Screening Examination – Cotinine test for non smokers, Biochemistry",
+   "56 60 nbd": "General Practitioner's Report, Nurse Screening Examination – Cotinine test for non smokers, Biochemistry",
+   "61 65 nbd": "General Practitioner's Report, Nurse Screening Examination – Cotinine test for non smokers, Biochemistry, NT-ProbBNP"
+ },
+ {
+   "Sum Assured (nbd - age next birthday)": "£600,001 - £750,000",
+   "30 nbd & under": "Nurse Screening Examination – Cotinine test for non smokers",
+   "31 35 nbd": "Nurse Screening Examination – Cotinine test for non smokers",
+   "36 40 nbd": "Nurse Screening Examination – Cotinine test for non smokers, General Practitioner's Report",
+   "41 45 nbd": "Nurse Screening Examination – Cotinine test for non smokers, General Practitioner's Report",
+   "46 50 nbd": "Nurse Screening Examination – Cotinine test for non smokers, General Practitioner's Report",
+   "51 55 nbd": "General Practitioner's Report, Nurse Screening Examination – Cotinine test for non smokers, Biochemistry",
+   "56 60 nbd": "General Practitioner's Report, Nurse Screening Examination – Cotinine test for non smokers, Biochemistry",
+   "61 65 nbd": "General Practitioner's Report, Nurse Screening Examination – Cotinine test for non smokers, Biochemistry, NT-ProbBNP"
+ },
+ {
+   "Sum Assured (nbd - age next birthday)": "£750,001 - £1,000,000",
+   "30 nbd & under": "Nurse Screening Examination – Cotinine test for non smokers, General Practitioner's Report",
+   "31 35 nbd": "Nurse Screening Examination – Cotinine test for non smokers, General Practitioner's Report",
+   "36 40 nbd": "Nurse Screening Examination – Cotinine test for non smokers, General Practitioner's Report, Biochemistry",
+   "41 45 nbd": "Nurse Screening Examination – Cotinine test for non smokers, General Practitioner's Report, Biochemistry",
+   "46 50 nbd": "Nurse Screening Examination – Cotinine test for non smokers, General Practitioner's Report, Biochemistry",
+   "51 55 nbd": "General Practitioner's Report, Nurse Screening Examination – Cotinine test for non smokers, Biochemistry",
+   "56 60 nbd": "General Practitioner's Report, Nurse Screening Examination – Cotinine test for non smokers, Biochemistry, NT-ProbBNP",
+   "61 65 nbd": "General Practitioner's Report, Nurse Screening Examination – Cotinine test for non smokers, Biochemistry, NT-ProbBNP"
+ },
+ {
+   "Sum Assured (nbd - age next birthday)": "£1,000,001 - £1,500,000",
+   "30 nbd & under": "Nurse Screening Examination – Cotinine test for non smokers, General Practitioner's Report, Biochemistry",
+   "31 35 nbd": "Nurse Screening Examination – Cotinine test for non smokers, General Practitioner's Report, Biochemistry",
+   "36 40 nbd": "Nurse Screening Examination – Cotinine test for non smokers, General Practitioner's Report, Biochemistry",
+   "41 45 nbd": "Nurse Screening Examination – Cotinine test for non smokers, General Practitioner's Report, Biochemistry",
+   "46 50 nbd": "Nurse Screening Examination – Cotinine test for non smokers, General Practitioner's Report, Biochemistry",
+   "51 55 nbd": "General Practitioner's Report, Nurse Screening Examination – Cotinine test for non smokers, Biochemistry, NT-ProbBNP",
+   "56 60 nbd": "General Practitioner's Report, Nurse Screening Examination – Cotinine test for non smokers, Biochemistry, NT-ProbBNP",
+   "61 65 nbd": "General Practitioner's Report, Nurse Screening Examination – Cotinine test for non smokers, Biochemistry, NT-ProbBNP"
+ },
+ {
+   "Sum Assured (nbd - age next birthday)": "£1,500,001 - £5,000,000",
+   "30 nbd & under": "Nurse Screening Examination – Cotinine test for non smokers, General Practitioner's Report, Biochemistry",
+   "31 35 nbd": "Nurse Screening Examination – Cotinine test for non smokers, General Practitioner's Report, Biochemistry",
+   "36 40 nbd": "Nurse Screening Examination – Cotinine test for non smokers, General Practitioner's Report, Biochemistry",
+   "41 45 nbd": "Nurse Screening Examination – Cotinine test for non smokers, General Practitioner's Report, Biochemistry",
+   "46 50 nbd": "Nurse Screening Examination – Cotinine test for non smokers, General Practitioner's Report, Biochemistry, NT-ProbBNP",
+   "51 55 nbd": "General Practitioner's Report, Nurse Screening Examination – Cotinine test for non smokers, Biochemistry, NT-ProbBNP, Exercise Electrocardiogram",
+   "56 60 nbd": "General Practitioner's Report, Nurse Screening Examination – Cotinine test for non smokers, Biochemistry, NT-ProbBNP, Exercise Electrocardiogram",
+   "61 65 nbd": "General Practitioner's Report, Nurse Screening Examination – Cotinine test for non smokers, Biochemistry, NT-ProbBNP, Exercise Electrocardiogram"
+ }
+]
