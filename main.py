@@ -36,7 +36,7 @@ def get_medicals(provider, policy_file, age, sum_assured):
         model="claude-3-opus-20240229",
         max_tokens=2000,
         temperature=0.5,
-        system=f"Data contents:{policy_data}, Provide the medical tests required for the following criteria, specific to {cover_type}. When determining the medical tests, use the exact sum assured provided and match it to the appropriate range in the data. If the sum assured falls on the boundary of two ranges, use the tests for the lower range.",
+        system=f"Data contents:{policy_data}. To determine the medical tests required, find the age range that includes the provided age and then find the sum assured range that the provided sum assured falls into. If the sum assured matches the lower bound of a range (e.g., £1,000,000), use the tests for that range. Only provide the tests for the specific {cover_type} requested.",
         messages=[
             {
                 "role": "user",
