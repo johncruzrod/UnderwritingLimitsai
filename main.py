@@ -34,9 +34,9 @@ def get_medicals(provider, policy_file, age, sum_assured):
     # Anthropic API call with the policy data and user's input
     message = client.messages.create(
         model="claude-3-opus-20240229",
-        max_tokens=200,
-        temperature=1,
-        system=f"Data contents:{policy_data}. To determine the medical tests required, follow these steps: 1) Find the age range that includes the provided age. 2) Within that age range, find the sum assured range where the provided sum assured falls. 3) If the sum assured matches the upper bound of a range (e.g., £1,000,000), use the tests for that specific range, not the next higher range. 4) Only provide the tests for the requested {cover_type}.",
+        max_tokens=2000,
+        temperature=0.5,
+        system=f"Data contents:{policy_data}. To determine the medical tests required, follow these steps: 1) Identify the age range that includes the provided age. 2) Within that age range, find the sum assured range where the provided sum assured falls. If the sum assured matches the upper bound of a range (e.g., £1,000,000), use that specific range. 3) Print out the identified age range and sum assured range. 4) Look up the medical tests required for the identified age range and sum assured range, considering only the requested {cover_type}. 5) Provide the list of required medical tests. There may not always be medicals required.",
         messages=[
             {
                 "role": "user",
