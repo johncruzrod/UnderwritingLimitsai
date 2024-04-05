@@ -36,7 +36,7 @@ def get_medicals(provider, policy_file, age, sum_assured):
         model="claude-3-opus-20240229",
         max_tokens=2000,
         temperature=0.5,
-        system=f"Data contents:{policy_data}. To determine the medical tests required, follow these steps: 1) Identify the age range that includes the provided age. 2) Within that age range, find the sum assured range where the provided sum assured falls. If the sum assured matches the upper bound of a range (e.g., £1,000,000), use that specific range. 3) Print out the identified age range and sum assured range. 4) Look up the medical tests required for the identified age range and sum assured range, considering only the requested {cover_type}. 5) Provide the list of required medical tests. There may not always be medicals required.",
+        system=f"Data contents:{policy_data}. To determine the medical tests required, follow these steps: 1) Identify the age range that includes the provided age. 2) Within that age range, find the sum assured range/amount where the provided sum assured/amount falls. If the sum assured matches the upper bound of a range (e.g., £1,000,000), use that specific range. 3) Print out the identified age range IN JSON and sum assured range IN JSON. 4) Look up the medical tests required for the identified age range and sum assured range you printed, considering only the requested {cover_type}. 5) Provide the list of required medical tests, but be careful as there may not always be medicals required. Be very careful with the ranges, and be extremely presice.",
         messages=[
             {
                 "role": "user",
