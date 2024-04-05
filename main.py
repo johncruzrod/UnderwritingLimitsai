@@ -15,59 +15,52 @@ correct_password = st.secrets["PASSWORD"]
 def check_password(password):
     return password == correct_password
 
-def get_medicals(selected_providers, policy_type, age, sum_assured):
-    results = []
+def get_medicals(provider, policy_file, age, sum_assured):
+    file_path = f"data/{provider}/{policy_file}"
+    if not os.path.isfile(file_path):
+        return f"File not found: {file_path}"
 
-    for provider in selected_providers:
-        # Adjust the method to fetch the data based on your actual data storage (e.g., local file, GitHub, etc.)
-        # Assuming the data is stored locally for this example
-        file_path = f"data/{provider}.txt"
-        if not os.path.isfile(file_path):
-            results.append(f"File not found: {file_path}")
-            continue
+    with open(file_path, "r") as file:
+        policy_data = file.read()
 
-        with open(file_path, "r") as file:
-            policy_data = file.read()
+    # Anthropic API call with the policy data and user's input
+    message = client.messages.create(
+        model="claude-3-opus-20240229",
+        max_tokens=2000,
+        temperature=0.5,
+        system=f"Data contents:{policy_data}, Provide all the medical tests required for the following criteria, making sure to distinguish between Life, Critical Illness, and other types of cover as specified:",
+        messages=[
+            {
+                "role": "user",
+                "content": f"Age: {age}, Sum Assured: ${sum_assured}"
+            }
+        ]
+    )
 
-        # Anthropic API call with the policy data and user's input
-        message = client.messages.create(
-            model="claude-3-opus-20240229",
-            max_tokens=2000,
-            temperature=0.5,
-            system=f"Data contents:{policy_data}, Provide all the medical tests required for the following criteria, making sure to distinguish between Life, Critical Illness, and other types of cover as specified:",
-            messages=[
-                {
-                    "role": "user",
-                    "content": f"Life Insurance, Age: {age}, Sum Assured: ${sum_assured}, Policy Type: {policy_type}"
-                }
-            ]
-        )
+    if hasattr(message, 'content') and isinstance(message.content, list):
+        response_text = '\n'.join(block.text for block in message.content if block.type == 'text')
+    else:
+        response_text = "Unexpected response format or no match found."
 
-        if hasattr(message, 'content') and isinstance(message.content, list):
-            response_text = '\n'.join(block.text for block in message.content if block.type == 'text')
-        else:
-            response_text = "Unexpected response format or no match found."
-
-        results.append(f"Provider: {provider}\n{response_text}")
-
-    return results
+    return f"Provider: {provider}\nPolicy: {policy_file}\n{response_text}"
 
 def main():
     st.title("Insurance Medicals Lookup")
 
     providers = ["AIG", "Atlas", "Aviva", "Guardian", "Legal and General", "LV", "Royal London", "Scottish Widows", "Vitality"]
-    selected_providers = st.multiselect("Select Providers:", providers)
-
-    policy_type = st.selectbox("Policy Type:", ["Life", "Critical Illness", "Income Protection"])
 
     age = st.number_input("Age:", min_value=0, max_value=120, value=30, step=1)
     sum_assured = st.number_input("Sum Assured ($):", min_value=0, value=100000, step=1000)
 
-    if st.button("Get Medicals"):
-        results = get_medicals(selected_providers, policy_type, age, sum_assured)
-        for result in results:
-            st.write(result)
-            st.write("---")
+    for provider in providers:
+        if st.button(provider):
+            policy_files = [f for f in os.listdir(f"data/{provider}") if f.endswith(".txt")]
+            selected_policy = st.selectbox(f"Select Policy for {provider}:", policy_files)
+
+            if st.button(f"Get Medicals for {provider} - {selected_policy}"):
+                result = get_medicals(provider, selected_policy, age, sum_assured)
+                st.write(result)
+                st.write("---")
 
 # Password form
 def password_form():
