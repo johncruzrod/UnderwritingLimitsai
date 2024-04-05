@@ -1,0 +1,148 @@
+AGE AT NEXT BIRTHDAY:
+
+[
+ {
+   "Cover Amount": "£0 to £75,000",
+   "0 – 30": "No auto evidence",
+   "31 – 35": "No auto evidence",
+   "36 – 40": "No auto evidence",
+   "41 – 45": "No auto evidence",
+   "46 – 50": "No auto evidence",
+   "51 – 55": "No auto evidence",
+   "56 – 60": "No auto evidence",
+   "61 – 65": "No auto evidence",
+   "66 up": "No auto evidence"
+ },
+ {
+   "Cover Amount": "£75,001 to £150,000",
+   "0 – 30": "No auto evidence",
+   "31 – 35": "No auto evidence",
+   "36 – 40": "No auto evidence",
+   "41 – 45": "No auto evidence",
+   "46 – 50": "No auto evidence",
+   "51 – 55": "No auto evidence",
+   "56 – 60": "No auto evidence",
+   "61 – 65": "General Practitioners Report, Vitality Nurse Screening, TYPE A Venous Vitality Blood Screen for kidney function, cholesterol, liver function and glucose, Cotinine Test (for non-smokers only)",
+   "66 up": "General Practitioners Report, Vitality Nurse Screening, TYPE A Venous Vitality Blood Screen for kidney function, cholesterol, liver function and glucose, Cotinine Test (for non-smokers only)"
+ },
+ {
+   "Cover Amount": "£150,001 to £300,000",
+   "0 – 30": "No auto evidence",
+   "31 – 35": "No auto evidence",
+   "36 – 40": "No auto evidence",
+   "41 – 45": "No auto evidence",
+   "46 – 50": "No auto evidence",
+   "51 – 55": "General Practitioners Report, Vitality Nurse Screening, TYPE A Venous Vitality Blood Screen for kidney function, cholesterol, liver function and glucose, Cotinine Test (for non-smokers only)",
+   "56 – 60": "General Practitioners Report, Vitality Nurse Screening, TYPE A Venous Vitality Blood Screen for kidney function, cholesterol, liver function and glucose, Cotinine Test (for non-smokers only)",
+   "61 – 65": "General Practitioners Report, Medical Examination, Blood Haematology (venous blood test), Blood Biochemistry (venous blood test), Prostate Specific Antigen (male applicants only), Cotinine Test (for non-smokers only)",
+   "66 up": "General Practitioners Report, Medical Examination, Blood Haematology (venous blood test), Blood Biochemistry (venous blood test), Prostate Specific Antigen (male applicants only), Cotinine Test (for non-smokers only)"
+ },
+ {
+   "Cover Amount": "£300,001 to £400,000",
+   "0 – 30": "No auto evidence",
+   "31 – 35": "No auto evidence",
+   "36 – 40": "No auto evidence",
+   "41 – 45": "No auto evidence",
+   "46 – 50": "Vitality Nurse Screening, Finger Prick Test for cholesterol and glucose, Cotinine Test (for non-smokers only)",
+   "51 – 55": "General Practitioners Report, Medical Examination, Blood Haematology (venous blood test), Blood Biochemistry (venous blood test), Prostate Specific Antigen (male applicants only), Cotinine Test (for non-smokers only)",
+   "56 – 60": "General Practitioners Report, Medical Examination, Blood Haematology (venous blood test), Blood Biochemistry (venous blood test), Prostate Specific Antigen (male applicants only), Cotinine Test (for non-smokers only)",
+   "61 – 65": "General Practitioners Report, Medical Examination, Blood Haematology (venous blood test), Blood Biochemistry (venous blood test), Prostate Specific Antigen (male applicants only), Cotinine Test (for non-smokers only)",
+   "66 up": "General Practitioners Report, Medical Examination, Blood Haematology (venous blood test), Blood Biochemistry (venous blood test), Prostate Specific Antigen (male applicants only), Cotinine Test (for non-smokers only)"
+ },
+ {
+   "Cover Amount": "£400,001 to £500,000",
+   "0 – 30": "No auto evidence",
+   "31 – 35": "No auto evidence",
+   "36 – 40": "No auto evidence",
+   "41 – 45": "Vitality Nurse Screening, Cotinine Test (for non-smokers only)",
+   "46 – 50": "Vitality Nurse Screening, Finger Prick Test for cholesterol and glucose, Cotinine Test (for non-smokers only)",
+   "51 – 55": "General Practitioners Report, Medical Examination, Blood Haematology (venous blood test), Blood Biochemistry (venous blood test), Prostate Specific Antigen (male applicants only), Cotinine Test (for non-smokers only)",
+   "56 – 60": "General Practitioners Report, Medical Examination, Blood Haematology (venous blood test), Blood Biochemistry (venous blood test), Prostate Specific Antigen (male applicants only), Cotinine Test (for non-smokers only)",
+   "61 – 65": "General Practitioners Report, Medical Examination, Blood Haematology (venous blood test), Blood Biochemistry (venous blood test), NT-proBNP cardiac blood test, Prostate Specific Antigen (male applicants only), Cotinine Test (for non-smokers only)",
+   "66 up": "General Practitioners Report, Medical Examination, Blood Haematology (venous blood test), Blood Biochemistry (venous blood test), NT-proBNP cardiac blood test, Prostate Specific Antigen (male applicants only), Cotinine Test (for non-smokers only)"
+ },
+ {
+   "Cover Amount": "£500,001 to £600,000",
+   "0 – 30": "Vitality Nurse Screening, Cotinine Test (for non-smokers only)",
+   "31 – 35": "Vitality Nurse Screening, Cotinine Test (for non-smokers only)",
+   "36 – 40": "Vitality Nurse Screening, Cotinine Test (for non-smokers only)",
+   "41 – 45": "Vitality Nurse Screening, Finger Prick Test for cholesterol and glucose, Cotinine Test (for non-smokers only)",
+   "46 – 50": "Vitality Nurse Screening, TYPE A Venous Vitality Blood Screen for kidney function, cholesterol, liver function and glucose, Cotinine Test (for non-smokers only)",
+   "51 – 55": "General Practitioners Report, Medical Examination, Blood Haematology (venous blood test), Blood Biochemistry (venous blood test), NT-proBNP cardiac blood test, Prostate Specific Antigen (male applicants only), Cotinine Test (for non-smokers only)",
+   "56 – 60": "General Practitioners Report, Medical Examination, Blood Haematology (venous blood test), Blood Biochemistry (venous blood test), NT-proBNP cardiac blood test, Prostate Specific Antigen (male applicants only), Cotinine Test (for non-smokers only)",
+   "61 – 65": "General Practitioners Report, Medical Examination, Blood Haematology (venous blood test), Blood Biochemistry (venous blood test), NT-proBNP cardiac blood test, Prostate Specific Antigen (male applicants only), Cotinine Test (for non-smokers only)",
+   "66 up": "General Practitioners Report, Medical Examination, Blood Haematology (venous blood test), Blood Biochemistry (venous blood test), NT-proBNP cardiac blood test, Prostate Specific Antigen (male applicants only), Cotinine Test (for non-smokers only)"
+ },
+ {
+   "Cover Amount": "£600,001 to £750,000",
+   "0 – 30": "Vitality Nurse Screening, Cotinine Test (for non-smokers only)",
+   "31 – 35": "Vitality Nurse Screening, Finger Prick Test for cholesterol and glucose, Cotinine Test (for non-smokers only)",
+   "36 – 40": "Vitality Nurse Screening, Finger Prick Test for cholesterol and glucose, Cotinine Test (for non-smokers only)",
+   "41 – 45": "Vitality Nurse Screening, TYPE A Venous Vitality Blood Screen for kidney function, cholesterol, liver function and glucose, Cotinine Test (for non-smokers only)",
+   "46 – 50": "Vitality Nurse Screening, TYPE A Venous Vitality Blood Screen for kidney function, cholesterol, liver function and glucose, Cotinine Test (for non-smokers only)",
+   "51 – 55": "General Practitioners Report, Medical Examination, Blood Haematology (venous blood test), Blood Biochemistry (venous blood test), NT-proBNP cardiac blood test, Prostate Specific Antigen (male applicants only), Cotinine Test (for non-smokers only)",
+   "56 – 60": "General Practitioners Report, Medical Examination, Blood Haematology (venous blood test), Blood Biochemistry (venous blood test), Prostate Specific Antigen (male applicants only), NT-proBNP cardiac blood test, Cotinine Test (for non-smokers only)",
+   "61 – 65": "General Practitioners Report, Medical Examination, Blood Haematology (venous blood test), Blood Biochemistry (venous blood test), Prostate Specific Antigen (male applicants only), NT-proBNP cardiac blood test, Cotinine Test (for non-smokers only)",
+   "66 up": "General Practitioners Report, Medical Examination, Blood Haematology (venous blood test), Blood Biochemistry (venous blood test), Prostate Specific Antigen (male applicants only), NT-proBNP cardiac blood test, Cotinine Test (for non-smokers only)"
+ },
+ {
+   "Cover Amount": "£750,001 to £1,000,000",
+   "0 – 30": "Vitality Nurse Screening, Finger Prick Test for cholesterol and glucose, Cotinine Test (for non-smokers only)",
+   "31 – 35": "Vitality Nurse Screening, Finger Prick Test for cholesterol and glucose, Cotinine Test (for non-smokers only)",
+   "36 – 40": "Vitality Nurse Screening, Finger Prick Test for cholesterol and glucose, Cotinine Test (for non-smokers only)",
+   "41 – 45": "General Practitioners Report, Vitality Nurse Screening, TYPE A Venous Vitality Blood Screen for kidney function, cholesterol, liver function and glucose, Cotinine Test (for non-smokers only)",
+   "46 – 50": "General Practitioners Report, Vitality Nurse Screening, TYPE A Venous Vitality Blood Screen for kidney function, cholesterol, liver function and glucose, Cotinine Test (for non-smokers only)",
+   "51 – 55": "General Practitioners Report, Medical Examination, Blood Haematology (venous blood test), Blood Biochemistry (venous blood test), NT-proBNP cardiac blood test, Prostate Specific Antigen (male applicants only), Cotinine Test (for non-smokers only)",
+   "56 – 60": "General Practitioners Report, Medical Examination, Blood Haematology (venous blood test), Blood Biochemistry (venous blood test), NT-proBNP cardiac blood test, Prostate Specific Antigen (male applicants only), Cotinine Test (for non-smokers only)",
+   "61 – 65": "General Practitioners Report, Medical Examination, Blood Haematology (venous blood test), Blood Biochemistry (venous blood test), Prostate Specific Antigen (male applicants only), NT-proBNP cardiac blood test, Cotinine Test (for non-smokers only)",
+   "66 up": "General Practitioners Report, Medical Examination, Blood Haematology (venous blood test), Blood Biochemistry (venous blood test), Prostate Specific Antigen (male applicants only), NT-proBNP cardiac blood test, Cotinine Test (for non-smokers only)"
+ },
+ {
+   "Cover Amount": "£1,000,001 to £1,500,000",
+   "0 – 30": "General Practitioners Report, Medical Examination, Blood Haematology (venous blood test), Blood Biochemistry (venous blood test), Cotinine Test (for non-smokers only)",
+   "31 – 35": "General Practitioners Report, Medical Examination, Blood Haematology (venous blood test), Blood Biochemistry (venous blood test), Cotinine Test (for non-smokers only)",
+   "36 – 40": "General Practitioners Report, Medical Examination, Blood Haematology (venous blood test), Blood Biochemistry (venous blood test), Cotinine Test (for non-smokers only)",
+   "41 – 45": "General Practitioners Report, Medical Examination, Blood Haematology (venous blood test), Blood Biochemistry (venous blood test), Cotinine Test (for non-smokers only)",
+   "46 – 50": "General Practitioners Report, Medical Examination, Blood Haematology (venous blood test), Blood Biochemistry (venous blood test), Cotinine Test (for non-smokers only)",
+   "51 – 55": "General Practitioners Report, Medical Examination, Blood Haematology (venous blood test), Blood Biochemistry (venous blood test), Exercise Electrocardiogram, Prostate Specific Antigen (male applicants only), Cotinine Test (for non-smokers only)",
+   "56 – 60": "General Practitioners Report, Medical Examination, Blood Haematology (venous blood test), Blood Biochemistry (venous blood test), Exercise Electrocardiogram, Prostate Specific Antigen (male applicants only), Cotinine Test (for non-smokers only)",
+   "61 – 65": "General Practitioners Report, Medical Examination, Blood Haematology (venous blood test), Blood Biochemistry (venous blood test), Exercise Electrocardiogram, Prostate Specific Antigen (male applicants only), Cotinine Test (for non-smokers only)",
+   "66 up": "General Practitioners Report, Medical Examination, Blood Haematology (venous blood test), Blood Biochemistry (venous blood test), Exercise Electrocardiogram, Prostate Specific Antigen (male applicants only), Cotinine Test (for non-smokers only)"
+ },
+ {
+   "Cover Amount": "£1,500,001 to £2,000,000",
+   "0 – 30": "General Practitioners Report, Medical Examination, Blood Haematology (venous blood test), Blood Biochemistry (venous blood test), Cotinine Test (for non-smokers only)",
+   "31 – 35": "General Practitioners Report, Medical Examination, Blood Haematology (venous blood test), Blood Biochemistry (venous blood test), Cotinine Test (for non-smokers only)",
+   "36 – 40": "General Practitioners Report, Medical Examination, Blood Haematology (venous blood test), Blood Biochemistry (venous blood test), Cotinine Test (for non-smokers only)",
+   "41 – 45": "General Practitioners Report, Medical Examination, Blood Haematology (venous blood test), Blood Biochemistry (venous blood test), Cotinine Test (for non-smokers only)",
+   "46 – 50": "General Practitioners Report, Medical Examination, Blood Haematology (venous blood test), Blood Biochemistry (venous blood test), NT-proBNP cardiac blood test, Cotinine Test (for non-smokers only)",
+   "51 – 55": "General Practitioners Report, Medical Examination, Blood Haematology (venous blood test), Blood Biochemistry (venous blood test), Exercise Electrocardiogram, Prostate Specific Antigen (male applicants only), Cotinine Test (for non-smokers only)",
+   "56 – 60": "General Practitioners Report, Medical Examination, Blood Haematology (venous blood test), Blood Biochemistry (venous blood test), Exercise Electrocardiogram, Prostate Specific Antigen (male applicants only), Cotinine Test (for non-smokers only)",
+   "61 – 65": "General Practitioners Report, Medical Examination, Blood Haematology (venous blood test), Blood Biochemistry (venous blood test), Exercise Electrocardiogram, Prostate Specific Antigen (male applicants only), Cotinine Test (for non-smokers only)",
+   "66 up": "General Practitioners Report, Medical Examination, Blood Haematology (venous blood test), Blood Biochemistry (venous blood test), Exercise Electrocardiogram, Prostate Specific Antigen (male applicants only), Cotinine Test (for non-smokers only)"
+ },
+ {
+   "Cover Amount": "£2,000,001 to £3,000,000",
+   "0 – 30": "General Practitioners Report, Medical Examination, Blood Haematology (venous blood test), Blood Biochemistry (venous blood test), Cotinine Test (for non-smokers only)",
+   "31 – 35": "General Practitioners Report, Medical Examination, Blood Haematology (venous blood test), Blood Biochemistry (venous blood test), NT-proBNP cardiac blood test, Cotinine Test (for non-smokers only)",
+   "36 – 40": "General Practitioners Report, Medical Examination, Blood Haematology (venous blood test), Blood Biochemistry (venous blood test), NT-proBNP cardiac blood test, Cotinine Test (for non-smokers only)",
+   "41 – 45": "General Practitioners Report, Medical Examination, Blood Haematology (venous blood test), Blood Biochemistry (venous blood test), NT-proBNP cardiac blood test, Cotinine Test (for non-smokers only)",
+   "46 – 50": "General Practitioners Report, Medical Examination, Blood Haematology (venous blood test), Blood Biochemistry (venous blood test), NT-proBNP cardiac blood test, Cotinine Test (for non-smokers only)",
+   "51 – 55": "General Practitioners Report, Medical Examination, Blood Haematology (venous blood test), Blood Biochemistry (venous blood test), Exercise Electrocardiogram, Prostate Specific Antigen (male applicants only), Cotinine Test (for non-smokers only)",
+   "56 – 60": "General Practitioners Report, Medical Examination, Blood Haematology (venous blood test), Blood Biochemistry (venous blood test), Exercise Electrocardiogram, Prostate Specific Antigen (male applicants only), Cotinine Test (for non-smokers only)",
+   "61 – 65": "General Practitioners Report, Medical Examination, Blood Haematology (venous blood test), Blood Biochemistry (venous blood test), Exercise Electrocardiogram, Prostate Specific Antigen (male applicants only), Cotinine Test (for non-smokers only)",
+   "66 up": "General Practitioners Report, Medical Examination, Blood Haematology (venous blood test), Blood Biochemistry (venous blood test), Exercise Electrocardiogram, Prostate Specific Antigen (male applicants only), Cotinine Test (for non-smokers only)"
+ },
+ {
+   "Cover Amount": "£3,000,001 and over",
+   "0 – 30": "Refer Underwriting",
+   "31 – 35": "Refer Underwriting",
+   "36 – 40": "Refer Underwriting",
+   "41 – 45": "Refer Underwriting",
+   "46 – 50": "Refer Underwriting",
+   "51 – 55": "Refer Underwriting",
+   "56 – 60": "Refer Underwriting",
+   "61 – 65": "Refer Underwriting",
+   "66 up": "Refer Underwriting"
+ }
+]
