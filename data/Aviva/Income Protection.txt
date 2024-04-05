@@ -1,0 +1,106 @@
+[
+  {
+    "Sum Assured": "£0 - £850",
+    "0 - 40nb": "No auto evidence",
+    "41 - 45nb": "No auto evidence",
+    "46 - 50nb": "No auto evidence",
+    "51 - 55nb": "No auto evidence",
+    "56 - 60nb": "No auto evidence"
+  },
+  {
+    "Sum Assured": "£851 - £1,000",
+    "0 - 40nb": "No auto evidence",
+    "41 - 45nb": "No auto evidence",
+    "46 - 50nb": "No auto evidence",
+    "51 - 55nb": "No auto evidence",
+    "56 - 60nb": "Paramedical mini screen, Cotinine test (non-smokers)"
+  },
+  {
+    "Sum Assured": "£1,001 - £1,200",
+    "0 - 40nb": "No auto evidence",
+    "41 - 45nb": "No auto evidence",
+    "46 - 50nb": "No auto evidence",
+    "51 - 55nb": "No auto evidence",
+    "56 - 60nb": "Report from GP, Paramedical mini screen, Cotinine test (non-smokers)"
+  },
+  {
+    "Sum Assured": "£1,201 - £1,500",
+    "0 - 40nb": "No auto evidence",
+    "41 - 45nb": "No auto evidence",
+    "46 - 50nb": "No auto evidence",
+    "51 - 55nb": "Paramedical mini screen, Cotinine test (non-smokers)",
+    "56 - 60nb": "Report from GP, Paramedical mini screen, Cotinine test (non-smokers)"
+  },
+  {
+    "Sum Assured": "£1,501 - £1,666",
+    "0 - 40nb": "No auto evidence",
+    "41 - 45nb": "No auto evidence",
+    "46 - 50nb": "No auto evidence",
+    "51 - 55nb": "Paramedical mini screen, Cotinine test (non-smokers)",
+    "56 - 60nb": "Report from GP, Paramedical mini screen, Cotinine test (non-smokers)"
+  },
+  {
+    "Sum Assured": "£1,667 - £2,000",
+    "0 - 40nb": "No auto evidence",
+    "41 - 45nb": "No auto evidence",
+    "46 - 50nb": "No auto evidence",
+    "51 - 55nb": "Paramedical mini screen, Cotinine test (non-smokers)",
+    "56 - 60nb": "Report from GP, Paramedical mini screen, Cotinine test (non-smokers)"
+  },
+  {
+    "Sum Assured": "£2,001 - £2,500",
+    "0 - 40nb": "No auto evidence",
+    "41 - 45nb": "No auto evidence",
+    "46 - 50nb": "No auto evidence",
+    "51 - 55nb": "Report from GP, Paramedical mini screen, Cotinine test (non-smokers)",
+    "56 - 60nb": "Report from GP, Medical examination, Cotinine test (non-smokers)"
+  },
+  {
+    "Sum Assured": "£2,501 - £3,000",
+    "0 - 40nb": "No auto evidence",
+    "41 - 45nb": "No auto evidence",
+    "46 - 50nb": "Paramedical mini screen, Cotinine test (non-smokers)",
+    "51 - 55nb": "Report from GP, Paramedical mini screen, Cotinine test (non-smokers)",
+    "56 - 60nb": "Report from GP, Medical examination, Cotinine test (non-smokers)"
+  },
+  {
+    "Sum Assured": "£3,001 - £4,166",
+    "0 - 40nb": "No auto evidence",
+    "41 - 45nb": "Paramedical mini screen, Cotinine test (non-smokers)",
+    "46 - 50nb": "Paramedical mini screen, Cotinine test (non-smokers)",
+    "51 - 55nb": "Report from GP, Paramedical mini screen, Cotinine test (non-smokers)",
+    "56 - 60nb": "Report from GP, Medical examination, Cotinine test (non-smokers)"
+  },
+  {
+    "Sum Assured": "£4,167 - £5,000",
+    "0 - 40nb": "No auto evidence",
+    "41 - 45nb": "Report from GP, Medical examination, Cotinine test (non-smokers), Full blood profile (including Lipid profile), Human immunodeficiency virus antibody test",
+    "46 - 50nb": "Report from GP, Medical examination, Cotinine test (non-smokers), Full blood profile (including Lipid profile)",
+    "51 - 55nb": "Report from GP, Medical examination, Cotinine test (non-smokers), Full blood profile (including Lipid profile), N-terminal pro B-type natriuretic peptide test",
+    "56 - 60nb": "Report from GP, Medical examination, Cotinine test (non-smokers), Full blood profile (including Lipid profile), N-terminal pro B-type natriuretic peptide test"
+  },
+  {
+    "Sum Assured": "£5,001 - £6,250",
+    "0 - 40nb": "No auto evidence",
+    "41 - 45nb": "Report from GP, Medical examination, Cotinine test (non-smokers), Full blood profile (including Lipid profile), Human immunodeficiency virus antibody test",
+    "46 - 50nb": "Report from GP, Medical examination, Cotinine test (non-smokers), Full blood profile (including Lipid profile)",
+    "51 - 55nb": "Report from GP, Medical examination, Cotinine test (non-smokers), Full blood profile (including Lipid profile), N-terminal pro B-type natriuretic peptide test",
+    "56 - 60nb": "Report from GP, Medical examination, Cotinine test (non-smokers), Full blood profile (including Lipid profile), N-terminal pro B-type natriuretic peptide test"
+  },
+  {
+    "Sum Assured": "£6,251 - £8,333",
+    "0 - 40nb": "Report from GP, Medical examination, Cotinine test (non-smokers), Full blood profile (including Lipid profile), Human immunodeficiency virus antibody test",
+    "41 - 45nb": "Report from GP, Medical examination, Cotinine test (non-smokers), Full blood profile (including Lipid profile), Human immunodeficiency virus antibody test, N-terminal pro B-type natriuretic peptide test",
+    "46 - 50nb": "Report from GP, Medical examination, Cotinine test (non-smokers), Full blood profile (including Lipid profile), Human immunodeficiency virus antibody test, N-terminal pro B-type natriuretic peptide test",
+    "51 - 55nb": "Report from GP, Medical examination, Cotinine test (non-smokers), Full blood profile (including Lipid profile), Human immunodeficiency virus antibody test, N-terminal pro B-type natriuretic peptide test",
+    "56 - 60nb": "Report from GP, Medical examination, Cotinine test (non-smokers), Full blood profile (including Lipid profile), Human immunodeficiency virus antibody test, N-terminal pro B-type natriuretic peptide test"
+  },
+  {
+    "Sum Assured": ">=£8,334",
+    "0 - 40nb": "Report from GP, Medical examination, Cotinine test (non-smokers), Full blood profile (including Lipid profile), Human immunodeficiency virus antibody test, N-terminal pro B-type natriuretic peptide test",
+    "41 - 45nb": "Report from GP, Medical examination, Cotinine test (non-smokers), Full blood profile (including Lipid profile), Human immunodeficiency virus antibody test, N-terminal pro B-type natriuretic peptide test",
+    "46 - 50nb": "Report from GP, Medical examination, Cotinine test (non-smokers), Full blood profile (including Lipid profile), Human immunodeficiency virus antibody test, N-terminal pro B-type natriuretic peptide test",
+    "51 - 55nb": "Report from GP, Medical examination, Cotinine test (non-smokers), Full blood profile (including Lipid profile), Human immunodeficiency virus antibody test, N-terminal pro B-type natriuretic peptide test",
+    "56 - 60nb": "Report from GP, Medical examination, Cotinine test (non-smokers), Full blood profile (including Lipid profile), Human immunodeficiency virus antibody test, N-terminal pro B-type natriuretic peptide test"
+  }
+]
