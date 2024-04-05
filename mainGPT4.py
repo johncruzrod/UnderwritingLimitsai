@@ -1,5 +1,5 @@
 import streamlit as st
-import openai
+from openai import OpenAI
 import os
 
 # Initialize session state for 'logged_in' flag if it doesn't exist
@@ -8,7 +8,6 @@ if 'logged_in' not in st.session_state:
 
 # Use Streamlit's secret management to safely store and access your API key and the correct password
 api_key = st.secrets["OPENAI_API_KEY"]
-openai.api_key = api_key
 correct_password = st.secrets["PASSWORD"]
 
 # Function to check if the entered password is correct
@@ -31,10 +30,13 @@ def get_medicals(provider, policy_file, age, sum_assured):
     elif "Critical Illness" in policy_file:
         cover_type = "Critical Illness Cover"
 
-    # Construct the payload for the OpenAI API call
-    payload = {
-        "model": "gpt-4-0125-preview",
-        "messages": [
+    # Initialize the OpenAI client
+    client = OpenAI(api_key=api_key)
+
+    # Execute the OpenAI API call
+    response = client.chat.completions.create(
+        model="gpt-4",
+        messages=[
             {
                 "role": "system",
                 "content": f"Data contents:{policy_data}. You are now my optimised Search Engine. You must be precise, and avoid errors. Follow these steps: 1) Identify the age range that includes the provided age. 2) Within that age range, find the sum assured range/amount where the provided sum assured/amount falls. If the sum assured matches the upper bound of a range (e.g., £1,000,000), use that specific range. 3) Print out the identified age range IN JSON and sum assured range IN JSON. 4) Look up the medical tests required for the identified age range and sum assured range you printed, considering only the requested {cover_type}. After completing these steps, Print out if there are required medical tests, and if there are any, exactly what they are according to the data. Be very careful with the ranges, and be extremely precise."
@@ -44,12 +46,9 @@ def get_medicals(provider, policy_file, age, sum_assured):
                 "content": f"Age: {age}, Sum Assured: £{sum_assured}"
             }
         ],
-        "max_tokens": 350,
-        "temperature": 1
-    }
-
-    # Execute the OpenAI API call
-    response = openai.ChatCompletion.create(**payload)
+        max_tokens=350,
+        temperature=1,
+    )
 
     # Process and return the response
     if response.choices:
