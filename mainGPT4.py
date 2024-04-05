@@ -31,11 +31,8 @@ def get_medicals(provider, policy_file, age, sum_assured):
     else:
         cover_type = "Other Cover"
 
-    # Initialize the OpenAI client
-    client = OpenAI()
-
     # OpenAI API call with the policy data and user's input
-    response = client.chat.completions.create(
+    response = openai.ChatCompletion.create(
         model="gpt-4-0125-preview",
         messages=[
             {
@@ -55,6 +52,7 @@ def get_medicals(provider, policy_file, age, sum_assured):
     response_text = response.choices[0].message['content'].strip()
 
     return f"Provider: {provider}\nPolicy: {policy_file}\n{response_text}"
+
 
 def main():
     st.title("Insurance Medicals Lookup")
