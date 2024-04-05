@@ -23,12 +23,20 @@ def get_medicals(provider, policy_file, age, sum_assured):
     with open(file_path, "r") as file:
         policy_data = file.read()
 
+    # Determine the cover type based on the policy file name
+    if "Life" in policy_file:
+        cover_type = "Life Cover"
+    elif "Critical Illness" in policy_file:
+        cover_type = "Critical Illness Cover"
+    else:
+        cover_type = "Other Cover"
+
     # Anthropic API call with the policy data and user's input
     message = client.messages.create(
         model="claude-3-opus-20240229",
         max_tokens=2000,
         temperature=0.5,
-        system=f"Data contents:{policy_data}, Provide all the medical tests required for the following criteria, making sure to distinguish between Life, Critical Illness, and other types of cover as specified:",
+        system=f"Data contents:{policy_data}, Provide the medical tests required for the following criteria, specific to {cover_type}:",
         messages=[
             {
                 "role": "user",
