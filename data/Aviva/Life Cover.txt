@@ -280,7 +280,7 @@
     "76-80nb": "Report from GP, Medical examination, Cotinine test (non-smokers), Lipid profile"
   },
   {
-    "Sum Assured": "£825,001 - £1,000,000",
+    "Sum Assured": "£825,001 - £1,000,000", 
     "To 30nb": "No auto evidence",
     "31-35nb": "No auto evidence",
     "36-40nb": "Paramedical mini screen, Cotinine test (non-smokers)",
