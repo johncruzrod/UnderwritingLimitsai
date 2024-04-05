@@ -32,7 +32,7 @@ def get_medicals(provider, policy_file, age, sum_assured):
         messages=[
             {
                 "role": "user",
-                "content": f"Age: {age}, Sum Assured: ${sum_assured}"
+                "content": f"Age: {age}, Sum Assured: £{sum_assured}"
             }
         ]
     )
@@ -50,7 +50,7 @@ def main():
     providers = ["AIG", "Atlas", "Aviva", "Guardian", "Legal and General", "LV", "Royal London", "Scottish Widows", "Vitality"]
 
     age = st.number_input("Age:", min_value=0, max_value=120, value=30, step=1)
-    sum_assured = st.number_input("Sum Assured ($):", min_value=0, value=100000, step=1000)
+    sum_assured = st.number_input("Sum Assured (£):", min_value=0, value=100000, step=1000)
 
     selected_providers = st.multiselect("Select Providers:", providers)
 
