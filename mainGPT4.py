@@ -54,8 +54,6 @@ def get_medicals(provider, policy_file, age, sum_assured):
         response_text = response.choices[0].message.content.strip()
         
         # Get token usage statistics
-        prompt_tokens = response.usage.prompt_tokens
-        completion_tokens = response.usage.completion_tokens
         total_tokens = response.usage.total_tokens
         
         return (
@@ -88,13 +86,10 @@ def main():
         for provider, policies in selected_policies.items():
             for policy in policies:
                 sum_assured = sum_assured_values[(provider, policy)]
-                result, prompt_tokens, completion_tokens, total_tokens = get_medicals(provider, policy, age, sum_assured)
+                result, total_tokens = get_medicals(provider, policy, age, sum_assured)
                 st.write(f"Provider: {provider}")
                 st.write(f"Policy: {policy}")
                 st.write(result)
-                st.write("Token Usage Statistics:")
-                st.write(f"Prompt Tokens: {prompt_tokens}")
-                st.write(f"Completion Tokens: {completion_tokens}")
                 st.write(f"Total Tokens: {total_tokens}")
                 st.write("---")
 
