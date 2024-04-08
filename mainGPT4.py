@@ -57,7 +57,7 @@ def get_medicals(provider, policy_file, age, sum_assured):
         total_tokens = response.usage.total_tokens
         
         return (
-            f"Provider: {provider}\nPolicy: {policy_file}\n{response_text}",
+            f"Policy: {policy_file}\n{response_text}",
             total_tokens
         )
     else:
@@ -86,7 +86,6 @@ def main():
                 sum_assured = sum_assured_values[(provider, policy)]
                 result, total_tokens = get_medicals(provider, policy, age, sum_assured)
                 st.write(f"Provider: {provider}")
-                st.write(f"Policy: {policy}")
                 st.write(result)
                 st.write(f"Total Tokens: {total_tokens}")
                 st.write("---")
