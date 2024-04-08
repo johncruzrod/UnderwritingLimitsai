@@ -14,28 +14,27 @@ correct_password = st.secrets["PASSWORD"]
 def check_password(password):
     return password == correct_password
 
-
 def get_medicals(provider, policy_file, age, sum_assured):
     file_path = f"data/{provider}/{policy_file}"
     if not os.path.isfile(file_path):
         return f"File not found: {file_path}"
-
+    
     with open(file_path, "r") as file:
         policy_data = file.read()
-
+    
     # Determine the cover type based on the policy file name
     cover_type = "Other Cover"
     if "Life" in policy_file:
         cover_type = "Life Cover"
     elif "Critical Illness" in policy_file:
         cover_type = "Critical Illness Cover"
-
+    
     # Initialize the OpenAI client
     client = OpenAI(api_key=api_key)
-
+    
     # Execute the OpenAI API call
     response = client.chat.completions.create(
-        model="gpt-4",
+        model="gpt-4-1106-preview",
         messages=[
             {
                 "role": "system",
@@ -49,33 +48,37 @@ def get_medicals(provider, policy_file, age, sum_assured):
         max_tokens=350,
         temperature=0.5,
     )
-
+    
     # Process and return the response
     if response.choices:
         response_text = response.choices[0].message.content.strip()
+        
+        # Print token usage statistics
+        print("Prompt Tokens:", response.usage.prompt_tokens)
+        print("Completion Tokens:", response.usage.completion_tokens)
+        print("Total Tokens:", response.usage.total_tokens)
+        
         return f"Provider: {provider}\nPolicy: {policy_file}\n{response_text}"
     else:
         return "Error: No medical information returned from GPT-4."
 
-
 def main():
     st.title("Insurance Medicals Lookup")
-
+    
     providers = ["AIG", "Atlas", "Aviva", "Guardian", "Legal and General", "LV", "Royal London", "Scottish Widows", "Vitality"]
-
     age = st.number_input("Age:", min_value=0, max_value=120, value=30, step=1)
-
     selected_providers = st.multiselect("Select Providers:", providers)
-
+    
     selected_policies = {}
     sum_assured_values = {}
+    
     for provider in selected_providers:
         policy_files = [f for f in os.listdir(f"data/{provider}") if f.endswith(".txt")]
         selected_policies[provider] = st.multiselect(f"Select Policies for {provider}:", policy_files)
         
         for policy in selected_policies[provider]:
             sum_assured_values[(provider, policy)] = st.number_input(f"Sum Assured (£) for {provider} - {policy}:", min_value=0, value=100000, step=1000)
-
+    
     if st.button("Get Medicals"):
         for provider, policies in selected_policies.items():
             for policy in policies:
@@ -88,6 +91,7 @@ def main():
 def password_form():
     st.sidebar.title("Access")
     password = st.sidebar.text_input("Enter the password", type="password")
+    
     if st.sidebar.button("Enter"):
         if check_password(password):
             st.session_state.logged_in = True
