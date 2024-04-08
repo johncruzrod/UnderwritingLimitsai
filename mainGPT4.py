@@ -53,14 +53,19 @@ def get_medicals(provider, policy_file, age, sum_assured):
     if response.choices:
         response_text = response.choices[0].message.content.strip()
         
-        # Print token usage statistics
-        print("Prompt Tokens:", response.usage.prompt_tokens)
-        print("Completion Tokens:", response.usage.completion_tokens)
-        print("Total Tokens:", response.usage.total_tokens)
+        # Get token usage statistics
+        prompt_tokens = response.usage.prompt_tokens
+        completion_tokens = response.usage.completion_tokens
+        total_tokens = response.usage.total_tokens
         
-        return f"Provider: {provider}\nPolicy: {policy_file}\n{response_text}"
+        return (
+            f"Provider: {provider}\nPolicy: {policy_file}\n{response_text}",
+            prompt_tokens,
+            completion_tokens,
+            total_tokens
+        )
     else:
-        return "Error: No medical information returned from GPT-4."
+        return "Error: No medical information returned from GPT-4.", 0, 0, 0
 
 def main():
     st.title("Insurance Medicals Lookup")
