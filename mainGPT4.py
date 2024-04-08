@@ -58,8 +58,6 @@ def get_medicals(provider, policy_file, age, sum_assured):
         
         return (
             f"Provider: {provider}\nPolicy: {policy_file}\n{response_text}",
-            prompt_tokens,
-            completion_tokens,
             total_tokens
         )
     else:
