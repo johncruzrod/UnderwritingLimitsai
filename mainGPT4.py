@@ -42,7 +42,21 @@ def get_medicals(provider, policy_type, age, sum_assured):
     with open(file_path, "r") as file:
         policy_data = file.read()
     
-    data_extraction_prompt = f"Data contents:\n{policy_data}\n\nYour job is to read the data and find the values associated with the age {age} and sum assured £{sum_assured}. If no values are found or the data is not relevant, reply with 'No relevant data found'. Reply only with the associated values from the data based on the age and sum assured, without any additional text. Be careful with the ranges of sum assured, as the data is different for ranges that end in '1' at the end. "
+    data_extraction_prompt = f"""Data contents:
+    {policy_data}
+    
+    Your job is to read the data and find the values associated with the age {age} and sum assured £{sum_assured}. If no values are found or the data is not relevant, reply with 'No relevant data found'.
+    
+    When determining the appropriate sum assured range, please note the following:
+    - If the sum assured ends with '1' (e.g., 100,001), it should be treated as the start of a new range.
+    - If the sum assured does not end with '1' (e.g., 100,000), it should be treated as the end of a range.
+    
+    For example:
+    - If the sum assured is 100,000, it falls into the range "50,001 100,000".
+    - If the sum assured is 100,001, it falls into the range "100,001 150,000".
+    
+    Reply only with the associated values from the data based on the age and sum assured, without any additional text.
+    """
     
     data_extraction_response = client.chat.completions.create(
         model="gpt-4-1106-preview",
