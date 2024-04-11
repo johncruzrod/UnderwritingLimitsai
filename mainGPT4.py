@@ -50,12 +50,13 @@ def get_medicals(provider, policy_type, age, sum_assured):
     When determining the appropriate sum assured range, please note the following:
     - The ranges are defined by the "£ Sum Assured" field in the data.
     - If the sum assured falls within a range (inclusive of the start and end values), select that range.
+    - If the sum assured matches the end value of a range (e.g., 2,500,000), select the range that includes that end value.
     - If the sum assured does not fall within any of the defined ranges, reply with 'No relevant data found'.
     
     For example:
     - If the sum assured is 100,000, it falls into the range "50,001 100,000".
     - If the sum assured is 100,001, it falls into the range "100,001 150,000".
-    - If the sum assured is 150,000, it falls into the range "100,001 150,000".
+    - If the sum assured is 2,500,000, it falls into the range "2,000,001 2,500,000".
     
     Reply only with the associated values from the data based on the age and sum assured, without any additional text.
     """
