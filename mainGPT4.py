@@ -42,7 +42,7 @@ def get_medicals(provider, policy_type, age, sum_assured):
     with open(file_path, "r") as file:
         policy_data = file.read()
     
-    data_extraction_prompt = f"Data contents:\n{policy_data}\n\nYour job is to read the data and find the values associated with the age {age} and sum assured £{sum_assured}. If no values are found or the data is not relevant, reply with 'No relevant data found'. Reply only with the associated values from the data based on the age and sum assured, without any additional text."
+    data_extraction_prompt = f"Data contents:\n{policy_data}\n\nYour job is to read the data and find the values associated with the age {age} and sum assured £{sum_assured}. If no values are found or the data is not relevant, reply with 'No relevant data found'. Reply only with the associated values from the data based on the age and sum assured, without any additional text. Be careful with the ranges of sum assured, as the data is different for ranges that end in '1' at the end. "
     
     data_extraction_response = client.chat.completions.create(
         model="gpt-4-1106-preview",
