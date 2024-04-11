@@ -48,12 +48,14 @@ def get_medicals(provider, policy_type, age, sum_assured):
     Your job is to read the data and find the values associated with the age {age} and sum assured £{sum_assured}. If no values are found or the data is not relevant, reply with 'No relevant data found'.
     
     When determining the appropriate sum assured range, please note the following:
-    - If the sum assured ends with '1' (e.g., 100,001), it should be treated as the start of a new range.
-    - If the sum assured does not end with '1' (e.g., 100,000), it should be treated as the end of a range.
+    - The ranges are defined by the "£ Sum Assured" field in the data.
+    - If the sum assured falls within a range (inclusive of the start and end values), select that range.
+    - If the sum assured does not fall within any of the defined ranges, reply with 'No relevant data found'.
     
     For example:
     - If the sum assured is 100,000, it falls into the range "50,001 100,000".
     - If the sum assured is 100,001, it falls into the range "100,001 150,000".
+    - If the sum assured is 150,000, it falls into the range "100,001 150,000".
     
     Reply only with the associated values from the data based on the age and sum assured, without any additional text.
     """
