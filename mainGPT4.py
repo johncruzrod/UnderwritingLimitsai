@@ -74,7 +74,7 @@ Based on the given data format and applying the correct range boundaries, what a
                 "content": data_extraction_prompt
             }
         ],
-        max_tokens=100,
+        max_tokens=1000,
         temperature=0.5,
     )
     
