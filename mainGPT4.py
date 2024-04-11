@@ -47,7 +47,7 @@ def get_medicals(provider, policy_file, age, sum_assured):
         messages=[
             {
                 "role": "system",
-                "content": f"Data contents:{policy_data}. You are now my optimised Search Engine. You must be precise, and avoid errors. What, if any, medicals are required for the following age and sum assured/amount? Please list them out in bullet points, or reply with [None required] if there are none."
+                "content": f"Data contents:{policy_data}. From this data, exactly what letters are associated with the sum assured and age? Reply only with the associated values from the table based on the sum assured and age, no other text.."
             },
             {
                 "role": "user",
