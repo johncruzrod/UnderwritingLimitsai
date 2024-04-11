@@ -4,11 +4,11 @@
    "75+": "Medical Required: n/a"
  },
  {
-   "£ Sum Assured": "50,001 100,000",
+   "£ Sum Assured": "50,001 - 100,000",
    "75+": "Medical Required: Nurse medical, Cotinine"
  },
  {
-   "£ Sum Assured": "100,001 150,000",
+   "£ Sum Assured": "100,001 - 150,000",
    "75+": "Medical Required: Nurse medical, Cotinine"
  },
  {
@@ -16,7 +16,7 @@
    "75+": "Medical Required: Nurse medical, Cotinine"
  },
  {
-   "£ Sum Assured": "200,001 300,000",
+   "£ Sum Assured": "200,001 - 300,000",
    "75+": "Medical Required: Nurse medical, Cotinine, Full Blood Profile"
  },
  {
@@ -24,51 +24,51 @@
    "75+": "Medical Required: Nurse medical, Cotinine, Full Blood Profile"
  },
  {
-   "£ Sum Assured": "400,001 500,000",
+   "£ Sum Assured": "400,001 - 500,000",
    "75+": "Medical Required: Nurse medical, Cotinine, Full Blood Profile"
  },
  {
-   "£ Sum Assured": "500,001 550,000",
+   "£ Sum Assured": "500,001 - 550,000",
    "75+": "Medical Required: Nurse medical, Cotinine, Full Blood Profile"
  },
  {
-   "£ Sum Assured": "550,001- 750,000",
+   "£ Sum Assured": "550,001 - 750,000",
    "75+": "Medical Required: Nurse medical, Cotinine, Full Blood Profile"
  },
  {
-   "£ Sum Assured": "750,001- 825,000",
+   "£ Sum Assured": "750,001 - 825,000",
    "75+": "Medical Required: Nurse medical, Cotinine, Full Blood Profile"
  },
  {
-   "£ Sum Assured": "825,001- 1,000,000",
+   "£ Sum Assured": "825,001 - 1,000,000",
    "75+": "Medical Required: Doctors medical, Cotinine, Full Blood Profile, Exercise Electrocardiogram"
  },
  {
-   "£ Sum Assured": "1,000,001 1,500,000",
+   "£ Sum Assured": "1,000,001 - 1,500,000",
    "75+": "Medical Required: Doctors medical, Cotinine, Full Blood Profile, Exercise Electrocardiogram"
  },
  {
-   "£ Sum Assured": "1,500,001 2,000,000",
+   "£ Sum Assured": "1,500,001 - 2,000,000",
    "75+": "Medical Required: Doctors medical, Cotinine, Full Blood Profile, Exercise Electrocardiogram"
  },
  {
-   "£ Sum Assured": "2,000,001 2,500,000",
+   "£ Sum Assured": "2,000,001 - 2,500,000",
    "75+": "Medical Required: Doctors medical, Cotinine, Full Blood Profile, Exercise Electrocardiogram"
  },
  {
-   "£ Sum Assured": "2,500,001 3,000,000",
+   "£ Sum Assured": "2,500,001 - 3,000,000",
    "75+": "Medical Required: Doctors medical, Cotinine, Full Blood Profile, Microscopic Urinalysis, Exercise Electrocardiogram"
  },
  {
-   "£ Sum Assured": "3,000,001 4,000,000",
+   "£ Sum Assured": "3,000,001 - 4,000,000",
    "75+": "Medical Required: Doctors medical, Cotinine, Full Blood Profile, Microscopic Urinalysis, Exercise Electrocardiogram"
  },
  {
-   "£ Sum Assured": "4,000,001 5,000,000",
+   "£ Sum Assured": "4,000,001 - 5,000,000",
    "75+": "Medical Required: Doctors medical, Cotinine, Full Blood Profile, Microscopic Urinalysis, Exercise Electrocardiogram"
  },
  {
-   "£ Sum Assured": "5,000,001 10,000,000",
+   "£ Sum Assured": "5,000,001 - 10,000,000",
    "75+": "Medical Required: Doctors medical, Cotinine, Full Blood Profile, Microscopic Urinalysis, Exercise Electrocardiogram"
  },
  {
