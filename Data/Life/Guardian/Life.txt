@@ -1,0 +1,141 @@
+{
+  "Guardian LIFE PROTECTION": [
+    {
+      "Age": "Up to Age 30",
+      "Sum Assured": [
+        {
+          "Amount": "Up to £1,000,000",
+          "Medicals Required": "Nil"
+        },
+        {
+          "Amount": "£1,000,001 - £1,500,000",
+          "Medicals Required": "Level A: Nurse screening + finger prick blood test or traditional blood draw to include glucose and total cholesterol"
+        },
+        {
+          "Amount": "£1,500,001 - £3,000,000",
+          "Medicals Required": "Level B: Nurse screening + Biochemistry & HbA1c"
+        },
+        {
+          "Amount": "£3,000,001 - £7,500,000",
+          "Medicals Required": "Level D: Nurse screening + Biochemistry & HbA1c + general practitioner's report"
+        },
+        {
+          "Amount": "£7,500,001 - £10,000,000",
+          "Medicals Required": "Level E: Medical examination report + Biochemistry, haematology & HbA1c + general practitioner's report + NT-Pro BNP blood test up to age 40"
+        },
+        {
+          "Amount": "£10,000,001 or more",
+          "Medicals Required": "Level F: Medical examination report + Biochemistry, haematology, HbA1c & endocrinology + HIV + PSA (for males) + general practitioner's report + NT-Pro BNP blood test up to age 30"
+        }
+      ]
+    },
+    {
+      "Age": "Age 31-40",
+      "Sum Assured": [
+        {
+          "Amount": "Up to £770,000",
+          "Medicals Required": "Nil"
+        },
+        {
+          "Amount": "£770,001 - £1,500,000",
+          "Medicals Required": "Level A: Nurse screening + finger prick blood test or traditional blood draw to include glucose and total cholesterol"
+        },
+        {
+          "Amount": "£1,500,001 - £3,000,000",
+          "Medicals Required": "Level B: Nurse screening + Biochemistry & HbA1c"
+        },
+        {
+          "Amount": "£3,000,001 - £7,500,000",
+          "Medicals Required": "Level D: Nurse screening + Biochemistry & HbA1c + general practitioner's report"
+        },
+        {
+          "Amount": "£7,500,001 - £10,000,000",
+          "Medicals Required": "Level E: Medical examination report + Biochemistry, haematology & HbA1c + general practitioner's report + NT-Pro BNP blood test up to age 40"
+        },
+        {
+          "Amount": "£10,000,001 or more",
+          "Medicals Required": "Level F: Medical examination report + Biochemistry, haematology, HbA1c & endocrinology + HIV + PSA (for males) + general practitioner's report + exercising ECG (replace exercising ECG with NT-Pro BNP blood test up to age 30)"
+        }
+      ]
+    },
+    {
+      "Age": "Age 41-50",
+      "Sum Assured": [
+        {
+          "Amount": "Up to £550,000",
+          "Medicals Required": "Nil"
+        },
+        {
+          "Amount": "£550,001 - £1,000,000",
+          "Medicals Required": "Level A: Nurse screening + finger prick blood test or traditional blood draw to include glucose and total cholesterol"
+        },
+        {
+          "Amount": "£1,000,001 - £2,000,000",
+          "Medicals Required": "Level B: Nurse screening + Biochemistry & HbA1c"
+        },
+        {
+          "Amount": "£2,000,001 - £4,000,000",
+          "Medicals Required": "Level D: Nurse screening + Biochemistry & HbA1c + general practitioner's report"
+        },
+        {
+          "Amount": "£4,000,001 - £10,000,000",
+          "Medicals Required": "Level E: Medical examination report + Biochemistry, haematology & HbA1c + general practitioner's report + exercising ECG (replace exercising ECG with NT-Pro BNP blood test up to age 40)"
+        },
+        {
+          "Amount": "£10,000,001 or more",
+          "Medicals Required": "Level F: Medical examination report + Biochemistry, haematology, HbA1c & endocrinology + HIV + PSA (for males) + general practitioner's report + exercising ECG (replace exercising ECG with NT-Pro BNP blood test up to age 30)"
+        }
+      ]
+    },
+    {
+      "Age": "Age 51-60",
+      "Sum Assured": [
+        {
+          "Amount": "Up to £330,000",
+          "Medicals Required": "Nil"
+        },
+        {
+          "Amount": "£330,001 - £650,000",
+          "Medicals Required": "Level A: Nurse screening + finger prick blood test or traditional blood draw to include glucose and total cholesterol"
+        },
+        {
+          "Amount": "£650,001 - £2,500,000",
+          "Medicals Required": "Level D: Nurse screening + Biochemistry & HbA1c + general practitioner's report"
+        },
+        {
+          "Amount": "£2,500,001 - £10,000,000",
+          "Medicals Required": "Level E: Medical examination report + Biochemistry, haematology & HbA1c + general practitioner's report + exercising ECG (replace exercising ECG with NT-Pro BNP blood test up to age 40)"
+        },
+        {
+          "Amount": "£10,000,001 or more",
+          "Medicals Required": "Level F: Medical examination report + Biochemistry, haematology, HbA1c & endocrinology + HIV + PSA (for males) + general practitioner's report + exercising ECG (replace exercising ECG with NT-Pro BNP blood test up to age 30)"
+        }
+      ]
+    },
+    {
+      "Age": "Age 61-64",
+      "Sum Assured": [
+        {
+          "Amount": "Up to £100,000",
+          "Medicals Required": "Nil"
+        },
+        {
+          "Amount": "£100,001 - £400,000",
+          "Medicals Required": "Level A: Nurse screening + finger prick blood test or traditional blood draw to include glucose and total cholesterol"
+        },
+        {
+          "Amount": "£400,001 - £1,500,000",
+          "Medicals Required": "Level C: Nurse screening + Biochemistry, haematology & HbA1c"
+        },
+        {
+          "Amount": "£1,500,001 - £10,000,000",
+          "Medicals Required": "Level E: Medical examination report + Biochemistry, haematology & HbA1c + general practitioner's report + exercising ECG (replace exercising ECG with NT-Pro BNP blood test up to age 40)"
+        },
+        {
+          "Amount": "£10,000,001 or more",
+          "Medicals Required": "Level F: Medical examination report + Biochemistry, haematology, HbA1c & endocrinology + HIV + PSA (for males) + general practitioner's report + exercising ECG (replace exercising ECG with NT-Pro BNP blood test up to age 30)"
+        }
+      ]
+    }
+  ]
+}
