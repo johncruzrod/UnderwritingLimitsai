@@ -1,0 +1,78 @@
+[
+ {
+   "£ Sum Assured": "To 50,000",
+   "45-49": "Medical Required: n/a"
+ },
+ {
+   "£ Sum Assured": "50,001 100,000",
+   "45-49": "Medical Required: n/a"
+ },
+ {
+   "£ Sum Assured": "100,001 150,000",
+   "45-49": "Medical Required: n/a"
+ },
+ {
+   "£ Sum Assured": "150,001 - 200,000",
+   "45-49": "Medical Required: n/a"
+ },
+ {
+   "£ Sum Assured": "200,001 300,000",
+   "45-49": "Medical Required: n/a"
+ },
+ {
+   "£ Sum Assured": "300,001 - 400,000",
+   "45-49": "Medical Required: n/a"
+ },
+ {
+   "£ Sum Assured": "400,001 500,000",
+   "45-49": "Medical Required: n/a"
+ },
+ {
+   "£ Sum Assured": "500,001 550,000",
+   "45-49": "Medical Required: Nurse medical, Cotinine, Biochemistry (blood test)"
+ },
+ {
+   "£ Sum Assured": "550,001- 750,000",
+   "45-49": "Medical Required: Nurse medical, Cotinine, Biochemistry (blood test)"
+ },
+ {
+   "£ Sum Assured": "750,001- 825,000",
+   "45-49": "Medical Required: Nurse medical, Cotinine, Biochemistry (blood test)"
+ },
+ {
+   "£ Sum Assured": "825,001- 1,000,000",
+   "45-49": "Medical Required: Nurse medical, Cotinine, Biochemistry (blood test)"
+ },
+ {
+   "£ Sum Assured": "1,000,001 1,500,000",
+   "45-49": "Medical Required: Nurse medical, Cotinine, Biochemistry (blood test)"
+ },
+ {
+   "£ Sum Assured": "1,500,001 2,000,000",
+   "45-49": "Medical Required: Nurse medical, Cotinine, HIV, Biochemistry (blood test)"
+ },
+ {
+   "£ Sum Assured": "2,000,001 2,500,000",
+   "45-49": "Medical Required: Nurse medical, Cotinine, HIV, Biochemistry (blood test)"
+ },
+ {
+   "£ Sum Assured": "2,500,001 3,000,000",
+   "45-49": "Medical Required: Doctors medical, Cotinine, Biochemistry (blood test), HIV"
+ },
+ {
+   "£ Sum Assured": "3,000,001 4,000,000",
+   "45-49": "Medical Required: Doctors medical, Cotinine, Biochemistry (blood test), HIV"
+ },
+ {
+   "£ Sum Assured": "4,000,001 5,000,000",
+   "45-49": "Medical Required: Doctors medical, Cotinine, Biochemistry (blood test), HIV, Exercise Electrocardiogram"
+ },
+ {
+   "£ Sum Assured": "5,000,001 10,000,000",
+   "45-49": "Medical Required: Doctors medical, Cotinine, Biochemistry (blood test), Microscopic Urinalysis, HIV, Exercise Electrocardiogram"
+ },
+ {
+   "£ Sum Assured": "10,000,001 +",
+   "45-49": "Medical Required: Doctors medical, Cotinine, Biochemistry (blood test), Microscopic Urinalysis, HIV, Exercise Electrocardiogram"
+ }
+]
