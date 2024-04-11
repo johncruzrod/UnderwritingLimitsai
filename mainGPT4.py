@@ -1,6 +1,7 @@
 import streamlit as st
 from openai import OpenAI
 import os
+import csv
 
 # Initialize session state for 'logged_in' flag if it doesn't exist
 if 'logged_in' not in st.session_state:
@@ -19,8 +20,16 @@ def get_medicals(provider, policy_file, age, sum_assured):
     if not os.path.isfile(file_path):
         return f"File not found: {file_path}"
     
-    with open(file_path, "r") as file:
-        policy_data = file.read()
+    # Read the file based on its extension
+    if policy_file.endswith(".txt"):
+        with open(file_path, "r") as file:
+            policy_data = file.read()
+    elif policy_file.endswith(".csv"):
+        with open(file_path, "r") as file:
+            reader = csv.reader(file)
+            policy_data = "\n".join([",".join(row) for row in reader])
+    else:
+        return f"Unsupported file format: {policy_file}"
     
     # Determine the cover type based on the policy file name
     cover_type = "Other Cover"
@@ -74,7 +83,7 @@ def main():
     sum_assured_values = {}
     
     for provider in selected_providers:
-        policy_files = [f for f in os.listdir(f"data/{provider}") if f.endswith(".txt")]
+        policy_files = [f for f in os.listdir(f"data/{provider}") if f.endswith((".txt", ".csv"))]
         selected_policies[provider] = st.multiselect(f"Select Policies for {provider}:", policy_files)
         
         for policy in selected_policies[provider]:
@@ -89,8 +98,6 @@ def main():
                 st.write(result)
                 st.write(f"Total Tokens: {total_tokens}")
                 st.write("---")
-
-
 
 # Password form
 def password_form():
