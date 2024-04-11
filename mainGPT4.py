@@ -47,7 +47,7 @@ def get_medicals(provider, policy_file, age, sum_assured):
         messages=[
             {
                 "role": "system",
-                "content": f"Data contents:{policy_data}. Your job is to read the CSV, and find the values for the associated cell that intersects with the values provided of sum assured and age. Reply only with the associated values from the table based on the sum assured and age, no other text."
+                "content": f"Data contents:{policy_data}. Your job is to read the CSV, and find the values for the associated cell that intersects with the values provided of sum assured and age. Some cells may not contain any values, or say no evidence; reply with no evidence. Reply only with the associated values from the table based on the sum assured and age, no other text."
             },
             {
                 "role": "user",
