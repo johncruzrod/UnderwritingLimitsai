@@ -45,7 +45,7 @@ def get_medicals(provider, policy_type, age, sum_assured):
     data_extraction_prompt = f"""Data contents:
     {policy_data}
     
-    In the provided data, what the values are associated with the age {age} and sum assured £{sum_assured?. If no values are found or the data is not relevant, reply with 'No relevant data found'.
+    In the provided data, what the values are associated with the age {age} and sum assured £{sum_assured}? If no values are found or the data is not relevant, reply with 'No relevant data found'.
     """
     
     data_extraction_response = client.chat.completions.create(
