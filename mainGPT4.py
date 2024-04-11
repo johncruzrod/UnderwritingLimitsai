@@ -42,11 +42,29 @@ def get_medicals(provider, policy_type, age, sum_assured):
     with open(file_path, "r") as file:
         policy_data = file.read()
     
-    data_extraction_prompt = f"""Data contents:
-    {policy_data}
-    
-    In the provided data, what the values are associated with the age {age} and sum assured £{sum_assured}? If no values are found or the data is not relevant, reply with 'No relevant data found'.
-    """
+    data_extraction_prompt = f"""Given a list of insurance sum assured ranges and their corresponding medical requirements for individuals aged {age} and over, I need you to accurately identify and list the specific medical tests required for a particular sum assured. The data is formatted with ranges and their corresponding medical requirements. Each range has a lower and upper boundary, and each set of requirements is associated with these boundaries. Here is the data format example:
+
+£0 - £50,000: No medical required.
+
+£50,001 - £100,000: Medical A required.
+
+...
+
+Based on this format, please provide the medical requirements for a policy with a sum assured specified by the user, ensuring to correctly apply the boundaries of the ranges to avoid including requirements of adjacent ranges.
+
+For example, if the sum assured is £X (replace 'X' with the user-specified amount), identify the correct range it falls into without going into the range above it, and list the medical tests required for that specific range only.
+
+User Request:
+
+The sum assured in question is £{sum_assured}.
+
+Data:
+{policy_data}
+
+Task:
+
+Based on the given data format and applying the correct range boundaries, what are the medical requirements for a sum assured of £{sum_assured}? Ensure your answer accurately matches the requirements listed for the exact range that £{sum_assured} falls into, without extending into the next range. Reply with just the medical requirements if found, or 'No relevant data found' if no matching range is found in the data.
+"""
     
     data_extraction_response = client.chat.completions.create(
         model="gpt-4-1106-preview",
@@ -77,8 +95,8 @@ def main():
     providers = ["AIG", "Atlas", "Aviva", "Guardian", "Legal and General", "LV", "Royal London", "Scottish Widows", "Vitality"]
     policy_types = ["Life"]  # Add more policy types as needed
     
-    age = st.number_input("Age:", min_value=0, max_value=120, value=30, step=1)
-    sum_assured = st.number_input("Sum Assured (£):", min_value=0, value=100000, step=1000)
+    age = st.number_input("Age:", min_value=0, max_value=120, value=75, step=1)
+    sum_assured = st.number_input("Sum Assured (£):", min_value=0, value=825000, step=1000)
     selected_provider = st.selectbox("Select Provider:", providers)
     selected_policy_type = st.selectbox("Select Policy Type:", policy_types)
     
