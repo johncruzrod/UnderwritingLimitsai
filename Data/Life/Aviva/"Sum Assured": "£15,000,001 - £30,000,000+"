@@ -1,0 +1,29 @@
+  {
+    "Sum Assured": "£15,000,001 - £30,000,000",
+    "To 30nb": "Report from GP, Medical examination, Cotinine test (non-smokers), Human immunodeficiency virus antibody test, Full blood profile (incl Lipid profile)",
+    "31-35nb": "Report from GP, Medical examination, Cotinine test (non-smokers), Human immunodeficiency virus antibody test, Full blood profile (incl Lipid profile), N-terminal pro B-type natriuretic peptide test",
+    "36-40nb": "Report from GP, Medical examination, Cotinine test (non-smokers), Human immunodeficiency virus antibody test, Full blood profile (incl Lipid profile), N-terminal pro B-type natriuretic peptide test",
+    "41-45nb": "Report from GP, Medical examination, Cotinine test (non-smokers), Human immunodeficiency virus antibody test, Full blood profile (incl Lipid profile), N-terminal pro B-type natriuretic peptide test",
+    "46-50nb": "Report from GP, Medical examination, Cotinine test (non-smokers), Human immunodeficiency virus antibody test, Full blood profile (incl Lipid profile), N-terminal pro B-type natriuretic peptide test",
+    "51-55nb": "Report from GP, Medical examination, Cotinine test (non-smokers), Human immunodeficiency virus antibody test, Full blood profile (incl Lipid profile), N-terminal pro B-type natriuretic peptide test, Exercise ECG, Prostate specific antigen screen (Males only)",
+    "56-60nb": "Report from GP, Medical examination, Cotinine test (non-smokers), Human immunodeficiency virus antibody test, Full blood profile (incl Lipid profile), N-terminal pro B-type natriuretic peptide test, Exercise ECG, Prostate specific antigen screen (Males only)",
+    "61-65nb": "Report from GP, Medical examination, Cotinine test (non-smokers), Full blood profile (incl Lipid profile), N-terminal pro B-type natriuretic peptide test, Exercise ECG, Prostate specific antigen screen (Males only)",
+    "66-70nb": "Report from GP, Medical examination, Cotinine test (non-smokers), Full blood profile (incl Lipid profile), N-terminal pro B-type natriuretic peptide test, Exercise ECG, Prostate specific antigen screen (Males only)",
+    "71-75nb": "Report from GP, Medical examination, Cotinine test (non-smokers), Full blood profile (incl Lipid profile), N-terminal pro B-type natriuretic peptide test, Exercise ECG, Prostate specific antigen screen (Males only)",
+    "76-80nb": "Report from GP, Medical examination, Cotinine test (non-smokers), Full blood profile (incl Lipid profile), N-terminal pro B-type natriuretic peptide test, Exercise ECG, Prostate specific antigen screen (Males only)"
+  },
+  {
+    "Sum Assured": "≥£30,000,001",
+    "To 30nb": "Report from GP, Medical examination, Cotinine test (non-smokers), Human immunodeficiency virus antibody test, Full blood profile (incl Lipid profile), N-terminal pro B-type natriuretic peptide test",
+    "31-35nb": "Report from GP, Medical examination, Cotinine test (non-smokers), Human immunodeficiency virus antibody test, Full blood profile (incl Lipid profile), N-terminal pro B-type natriuretic peptide test",
+    "36-40nb": "Report from GP, Medical examination, Cotinine test (non-smokers), Human immunodeficiency virus antibody test, Full blood profile (incl Lipid profile), N-terminal pro B-type natriuretic peptide test",
+    "41-45nb": "Report from GP, Medical examination, Cotinine test (non-smokers), Human immunodeficiency virus antibody test, Full blood profile (incl Lipid profile), N-terminal pro B-type natriuretic peptide test",
+    "46-50nb": "Report from GP, Medical examination, Cotinine test (non-smokers), Human immunodeficiency virus antibody test, Full blood profile (incl Lipid profile), N-terminal pro B-type natriuretic peptide test",
+    "51-55nb": "Report from GP, Medical examination, Cotinine test (non-smokers), Human immunodeficiency virus antibody test, Full blood profile (incl Lipid profile), N-terminal pro B-type natriuretic peptide test, Exercise ECG, Prostate specific antigen screen (Males only)",
+    "56-60nb": "Report from GP, Medical examination, Cotinine test (non-smokers), Human immunodeficiency virus antibody test, Full blood profile (incl Lipid profile), N-terminal pro B-type natriuretic peptide test, Exercise ECG, Prostate specific antigen screen (Males only)",
+    "61-65nb": "Report from GP, Medical examination, Cotinine test (non-smokers), Full blood profile (incl Lipid profile), N-terminal pro B-type natriuretic peptide test, Exercise ECG, Prostate specific antigen screen (Males only)",
+    "66-70nb": "Report from GP, Medical examination, Cotinine test (non-smokers), Full blood profile (incl Lipid profile), N-terminal pro B-type natriuretic peptide test, Exercise ECG, Prostate specific antigen screen (Males only)",
+    "71-75nb": "Report from GP, Medical examination, Cotinine test (non-smokers), Full blood profile (incl Lipid profile), N-terminal pro B-type natriuretic peptide test, Exercise ECG, Prostate specific antigen screen (Males only)",
+    "76-80nb": "Report from GP, Medical examination, Cotinine test (non-smokers), Full blood profile (incl Lipid profile), N-terminal pro B-type natriuretic peptide test, Exercise ECG, Prostate specific antigen screen (Males only)"
+  }
+]
