@@ -16,7 +16,7 @@ def check_password(password):
     return password == correct_password
 
 def get_medicals(provider, policy_type, age, sum_assured):
-    folder_path = f"UnderwritingLimits/Data/Life/{provider}"
+    folder_path = f"/Data/Life/{provider}"
     file_names = os.listdir(folder_path)
     
     # Step 1: Identify relevant files using the language model
@@ -86,7 +86,7 @@ def main():
     sum_assured_values = {}
     
     for provider in selected_providers:
-        policy_files = [f for f in os.listdir(f"UnderwritingLimits/Data/Life/{provider}") if f.endswith((".txt", ".csv"))]
+        policy_files = [f for f in os.listdir(f"Data/Life/{provider}") if f.endswith((".txt", ".csv"))]
         selected_policies[provider] = st.multiselect(f"Select Policies for {provider}:", policy_files)
         
         for policy in selected_policies[provider]:
